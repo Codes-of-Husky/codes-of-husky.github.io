@@ -289,6 +289,230 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/11/Hello-Hexo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="AloneHusky">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/ava_math.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="A Lonely Husky">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/03/11/Hello-Hexo/" class="post-title-link" itemprop="url">你好，世界！</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-03-11 22:18:19 / 修改时间：22:21:03" itemprop="dateCreated datePublished" datetime="2019-03-11T22:18:19+08:00">2019-03-11</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><strong>如何在GitHub上建立一个自己的博客</strong></p>
+<hr>
+<blockquote>
+<p>利用GitHub Pages建立自己的个人博客，有很多的方法。其中较主流的方法包括<a href="https://www.jekyll.com.cn/" target="_blank" rel="noopener">Jekyll</a>和<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>。本站是使用的是Hexo。本文分两个步骤介绍利用Hexo建立博客的过程。</p>
+</blockquote>
+<h2 id="在GitHub上的操作"><a href="#在GitHub上的操作" class="headerlink" title="在GitHub上的操作"></a>在GitHub上的操作</h2><ol>
+<li><p>创建自己的GitHub账号</p>
+</li>
+<li><p>新建一个仓库，为了可以通过网址<code>username.github.io</code>访问自己的博客，需要将仓库的名字设定为<code>username.github.io</code></p>
+</li>
+<li><p>在仓库<code>username.github.io</code>的<code>setting</code>选项卡中，开启GitHub Pages</p>
+</li>
+</ol>
+<blockquote>
+<p>至此，GitHub上的操作已经完成。</p>
+</blockquote>
+<h2 id="在本地主机上的操作"><a href="#在本地主机上的操作" class="headerlink" title="在本地主机上的操作"></a>在本地主机上的操作</h2><ol>
+<li><p>按照<a href="https://hexo.io/docs/" target="_blank" rel="noopener">hexo官网的教程</a>安装Hexo，在安装Hexo之前需要先安装<code>Node.js</code>和<code>Git</code>。打开自己想要安装Hexo的目录，打开电脑的命令行界面，运行下面的命令：</p>
+<pre><code>npm install -g hexo-cli    % 安装Hexo
+</code></pre></li>
+<li><p>如果运行上述命令没有报错，那么Hexo已经安装成功，接下来可以通过以下的命令初始化Hexo：</p>
+<pre><code>hexo init blog    % 初始化一个Blog
+cd blog           % 切换到Blog根目录下
+npm install       % 安装依赖项
+</code></pre></li>
+</ol>
+<blockquote>
+<p>至此Hexo已经安装成功，本地会生成一个<code>blog</code>目录。默认的<code>bolg</code>目录结构如下：</p>
+</blockquote>
+<pre><code>.
+├── _config.yml    % 配置文件
+├── package.json   % 应用程序数据
+├── scaffolds      % 模板文件
+├── source         % 源文件
+|   ├── _drafts    % 草稿
+|   └── _posts     % 展示
+└── themes         % 存放主题的目录
+</code></pre><blockquote>
+<p>后期可以通过更改<code>_config.yml</code>文件来配置站点信息</p>
+</blockquote>
+<ol start="3">
+<li><p>运行如下的命令运行一个本地服务：</p>
+<pre><code>hexo server    % 运行Hexo服务
+</code></pre></li>
+</ol>
+<blockquote>
+<p>如果运行上述命令没有报错，则通过浏览器查看<code>http://localhost:4000/</code>会看到一个网页，这就是Hexo默认的网页。</p>
+</blockquote>
+<ol start="4">
+<li><p>(<em>option</em>)Hexo提供了很多的主题供选择，只需要下载主题文件，然后放进<code>theme</code>文件夹内，并修改站点配置文件<code>_config.yml</code>应用新的主题。</p>
+</li>
+<li><p>接下来把本地的Hexo博客部署到GitHub上。首先安装git部署工具：</p>
+<pre><code>npm install hexo-deployer-git --save
+</code></pre><p>更改<code>blog</code>文件夹里面的<code>_config.yml</code>文件的<code>deploy</code>部分：</p>
+<pre><code>deploy:
+    type: git
+    repo: git@github.com:yourname/yourname.github.io.git
+    branch: master
+</code></pre></li>
+<li><p>设置本地git bash与GitHub账号之间的秘钥。使用以下命令生成ssh key：</p>
+<pre><code>ssh-keygen -t rsa -C &quot;youremail@email.com&quot;
+</code></pre><blockquote>
+<p>其中<a href="mailto:`youremail@email.com" target="_blank" rel="noopener">`youremail@email.com</a>`是github bash的邮箱。</p>
+</blockquote>
+</li>
+<li><p>切换到存放秘钥的目录，利用以下命令打印出公钥：</p>
+<pre><code>cat id_rsa.pub
+</code></pre></li>
+<li><p>复制打印出来的公钥，粘贴到GitHub账号的<code>setting</code>-&gt;<code>SSH keys</code>。</p>
+</li>
+<li><p>运行以下命令一键部署本地Hexo到GitHub Pages：</p>
+<pre><code>hexo g -d
+</code></pre></li>
+</ol>
+<hr>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><a href="https://hexo.io/docs/" target="_blank" rel="noopener">Hexo Docs</a></li>
+<li><a href="http://www.alonemonkey.com/2016/05/20/blog-by-jekyll-hexo/" target="_blank" rel="noopener">使用jekyll和hexo搭建免费博客</a></li>
+<li><a href="http://zhangzhk.com/2017/09/13/how-to-create-blog-by-hexo/" target="_blank" rel="noopener">如何利用Hexo在Github上搭建个人博客</a></li>
+<li><a href="https://www.cnblogs.com/fengxiongZz/p/7707219.html" target="_blank" rel="noopener">使用Hexo+Github一步步搭建属于自己的博客（基础）</a></li>
+<li><a href="https://www.cnblogs.com/fengxiongZz/p/7707568.html" target="_blank" rel="noopener">使用Hexo+Github一步步搭建属于自己的博客（进阶）</a></li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/11/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -542,7 +766,7 @@ npm install       % 安装依赖项
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
