@@ -101,12 +101,15 @@
 
 
 
-  <meta name="description" content="排序算法(Sorting algorithm)是一类很基础的算法。其研究的问题是：给定$N$个数${a_{1},a_{2},\dots,a_{N}}$，使其按照一定的顺序排列。  排序算法的分类按照不同的分类指标，可以有很多种排序算法的分类。具体的： 稳定性在给定的$N$个数${a_{1},a_{2},\dots,a_{N}}$中，如果$a_{j}=a_{k}, j \lt k$。稳定的算法在排">
+
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+  <meta name="description" content="排序算法(Sorting algorithm)是一类很基础的算法。其研究的问题是：给定$N$个数${a_{1},a_{2},\dots,a_{N}}$，使其按照一定的顺序排列。本文通过排序方法和计算复杂度就经常会遇到的六种排序算法作以介绍。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="排序算法">
 <meta property="og:url" content="https://codes-of-louis.github.io/2019-03-24-Sort/index.html">
 <meta property="og:site_name" content="A Lonely Husky">
-<meta property="og:description" content="排序算法(Sorting algorithm)是一类很基础的算法。其研究的问题是：给定$N$个数${a_{1},a_{2},\dots,a_{N}}$，使其按照一定的顺序排列。  排序算法的分类按照不同的分类指标，可以有很多种排序算法的分类。具体的： 稳定性在给定的$N$个数${a_{1},a_{2},\dots,a_{N}}$中，如果$a_{j}=a_{k}, j \lt k$。稳定的算法在排">
+<meta property="og:description" content="排序算法(Sorting algorithm)是一类很基础的算法。其研究的问题是：给定$N$个数${a_{1},a_{2},\dots,a_{N}}$，使其按照一定的顺序排列。本文通过排序方法和计算复杂度就经常会遇到的六种排序算法作以介绍。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/Codes-of-Louis/blog-imgs/master/Sorting_Algorithm/Bubble-sort-example-300px.gif">
 <meta property="og:image" content="https://raw.githubusercontent.com/Codes-of-Louis/blog-imgs/master/Sorting_Algorithm/Selection-Sort-Animation.gif">
@@ -114,10 +117,10 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/Codes-of-Louis/blog-imgs/master/Sorting_Algorithm/Heapsort-example.gif">
 <meta property="og:image" content="https://raw.githubusercontent.com/Codes-of-Louis/blog-imgs/master/Sorting_Algorithm/Merge_sort_algorithm_diagram.svg.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/Codes-of-Louis/blog-imgs/master/Sorting_Algorithm/Quicksort-diagram.svg.png">
-<meta property="og:updated_time" content="2019-03-27T11:56:43.826Z">
+<meta property="og:updated_time" content="2019-03-29T06:54:41.074Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="排序算法">
-<meta name="twitter:description" content="排序算法(Sorting algorithm)是一类很基础的算法。其研究的问题是：给定$N$个数${a_{1},a_{2},\dots,a_{N}}$，使其按照一定的顺序排列。  排序算法的分类按照不同的分类指标，可以有很多种排序算法的分类。具体的： 稳定性在给定的$N$个数${a_{1},a_{2},\dots,a_{N}}$中，如果$a_{j}=a_{k}, j \lt k$。稳定的算法在排">
+<meta name="twitter:description" content="排序算法(Sorting algorithm)是一类很基础的算法。其研究的问题是：给定$N$个数${a_{1},a_{2},\dots,a_{N}}$，使其按照一定的顺序排列。本文通过排序方法和计算复杂度就经常会遇到的六种排序算法作以介绍。">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/Codes-of-Louis/blog-imgs/master/Sorting_Algorithm/Bubble-sort-example-300px.gif">
 
 
@@ -511,9 +514,12 @@
       
 
       
-        <blockquote>
-<p><a href="https://en.wikipedia.org/wiki/Sorting_algorithm" target="_blank" rel="noopener">排序算法</a>(Sorting algorithm)是一类很基础的算法。其研究的问题是：给定$N$个数${a_{1},a_{2},\dots,a_{N}}$，使其按照一定的顺序排列。</p>
+        <hr>
+<blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Sorting_algorithm" target="_blank" rel="noopener">排序算法</a>(Sorting algorithm)是一类很基础的算法。其研究的问题是：给定$N$个数${a_{1},a_{2},\dots,a_{N}}$，使其按照一定的顺序排列。本文通过排序方法和计算复杂度就经常会遇到的六种排序算法作以介绍。</p>
 </blockquote>
+<hr>
+<a id="more"></a>
 <h1 id="排序算法的分类"><a href="#排序算法的分类" class="headerlink" title="排序算法的分类"></a>排序算法的分类</h1><p>按照不同的分类指标，可以有很多种排序算法的分类。具体的：</p>
 <h2 id="稳定性"><a href="#稳定性" class="headerlink" title="稳定性"></a>稳定性</h2><p>在给定的$N$个数${a_{1},a_{2},\dots,a_{N}}$中，如果$a_{j}=a_{k}, j \lt k$。稳定的算法在排序结束后，$a_{j}$依然排在$a_{k}$的前面。即稳定的算法不改变相同数据的前后位置。根据算法的稳定性，算法分为稳定的算法和不稳定的算法。</p>
 <h2 id="计算复杂度"><a href="#计算复杂度" class="headerlink" title="计算复杂度"></a>计算复杂度</h2><p><a href="https://en.wikipedia.org/wiki/Computational_complexity_theory" target="_blank" rel="noopener">计算复杂度</a>衡量算法随着输入数据规模$N$的增加所需要的时间和空间的变化。把每次元操作（比较、移动、换位）所耗费的时间看作单位时间$T_{c}$，每个数据占用的空间看作单位空间。根据输入数据的不确定性，算法有最好情况（已经是有序状态）复杂度、最差情况（完全无序）复杂度和平均复杂度。不同的排序算法有着不同的计算复杂度，一般来说我们不可能同时减少时间复杂度和空间复杂度。</p>
@@ -769,19 +775,23 @@
                 <span class="links-of-author-item">
                   
                   
+                    
+                  
                   
                     
                   
-                  <a href="https://github.com/Codes-of-Louis" title="GitHub &rarr; https://github.com/Codes-of-Louis" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+                  <a href="https://github.com/Codes-of-Louis" title="GitHub &rarr; https://github.com/Codes-of-Louis" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
                 </span>
               
                 <span class="links-of-author-item">
                   
                   
+                    
+                  
                   
                     
                   
-                  <a href="mailto:louieli2017m@yahoo.com" title="E-Mail &rarr; mailto:louieli2017m@yahoo.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+                  <a href="mailto:louieli2017m@yahoo.com" title="E-Mail &rarr; mailto:louieli2017m@yahoo.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                 </span>
               
             </div>
@@ -790,6 +800,20 @@
           
 
           
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-thumbs-up"></i>
+                推荐阅读
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.shi-ci.com/" title="https://www.shi-ci.com/" rel="noopener" target="_blank">中华诗词</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -832,14 +856,14 @@
       <div class="footer-inner">
         <div class="copyright">&copy; 2013 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-anchor"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Husky🐶</span>
 
   
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
+      <i class="fa fa-file-text-o"></i>
     </span>
     
     <span title="站点总字数">8k</span>
@@ -848,7 +872,7 @@
   
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
-      <i class="fa fa-coffee"></i>
+      <i class="fa fa-hourglass-half"></i>
     </span>
     
     <span title="站点阅读时长">14 分钟</span>
