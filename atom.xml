@@ -44,8 +44,8 @@
   
   <entry>
     <title>重庆</title>
-    <link href="https://codes-of-louis.github.io/2019-03-22-CQ/"/>
-    <id>https://codes-of-louis.github.io/2019-03-22-CQ/</id>
+    <link href="https://codes-of-louis.github.io/2019-03-22-Chongqing/"/>
+    <id>https://codes-of-louis.github.io/2019-03-22-Chongqing/</id>
     <published>2019-03-21T16:00:00.000Z</published>
     <updated>2019-03-29T06:56:24.146Z</updated>
     
@@ -68,8 +68,8 @@
   
   <entry>
     <title>一些提高效率的小工具</title>
-    <link href="https://codes-of-louis.github.io/2019-03-20-%E5%B7%A5%E5%85%B7%E9%9B%86/"/>
-    <id>https://codes-of-louis.github.io/2019-03-20-工具集/</id>
+    <link href="https://codes-of-louis.github.io/2019-03-20-Tool_set/"/>
+    <id>https://codes-of-louis.github.io/2019-03-20-Tool_set/</id>
     <published>2019-03-20T08:00:05.000Z</published>
     <updated>2019-03-29T06:38:33.651Z</updated>
     
@@ -94,8 +94,8 @@
   
   <entry>
     <title>如何提高打字速度</title>
-    <link href="https://codes-of-louis.github.io/2019-03-19-%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E6%89%93%E5%AD%97%E9%80%9F%E5%BA%A6/"/>
-    <id>https://codes-of-louis.github.io/2019-03-19-如何提高打字速度/</id>
+    <link href="https://codes-of-louis.github.io/2019-03-19-How_to_type_fast/"/>
+    <id>https://codes-of-louis.github.io/2019-03-19-How_to_type_fast/</id>
     <published>2019-03-19T13:27:39.000Z</published>
     <updated>2019-03-29T06:38:29.505Z</updated>
     
@@ -118,8 +118,8 @@
   
   <entry>
     <title>使用Hexo在GitHub上搭建个人博客</title>
-    <link href="https://codes-of-louis.github.io/2019-03-12-%E5%9C%A8GitHub-Pages%E4%B8%8A%E5%88%A9%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://codes-of-louis.github.io/2019-03-12-在GitHub-Pages上利用Hexo搭建自己的博客/</id>
+    <link href="https://codes-of-louis.github.io/2019-03-12-Build_your_personal_blog_using_hexo/"/>
+    <id>https://codes-of-louis.github.io/2019-03-12-Build_your_personal_blog_using_hexo/</id>
     <published>2019-03-12T02:14:39.000Z</published>
     <updated>2019-03-29T06:38:20.354Z</updated>
     
@@ -144,10 +144,10 @@
   
   <entry>
     <title>你好，世界！</title>
-    <link href="https://codes-of-louis.github.io/2019-03-11-%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C/"/>
-    <id>https://codes-of-louis.github.io/2019-03-11-你好，世界/</id>
+    <link href="https://codes-of-louis.github.io/2019-03-11-Hello_World/"/>
+    <id>https://codes-of-louis.github.io/2019-03-11-Hello_World/</id>
     <published>2019-03-10T16:00:00.000Z</published>
-    <updated>2019-03-27T11:46:41.858Z</updated>
+    <updated>2019-04-01T12:39:36.646Z</updated>
     
     <content type="html"><![CDATA[<hr><p>你好，世界！🎉</p><hr>]]></content>
     
