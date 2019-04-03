@@ -5,9 +5,9 @@
   <subtitle>种一棵树最好的时间是十年前，其次是现在</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://codes-of-louis.github.io/"/>
+  <link href="https://codes-of-husky.github.io/"/>
   <updated>2019-04-02T07:26:37.409Z</updated>
-  <id>https://codes-of-louis.github.io/</id>
+  <id>https://codes-of-husky.github.io/</id>
   
   <author>
     <name>Alone Husky</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>排序算法</title>
-    <link href="https://codes-of-louis.github.io/2019-03-24-Sort/"/>
-    <id>https://codes-of-louis.github.io/2019-03-24-Sort/</id>
+    <link href="https://codes-of-husky.github.io/2019-03-24-Sort/"/>
+    <id>https://codes-of-husky.github.io/2019-03-24-Sort/</id>
     <published>2019-03-23T16:00:00.000Z</published>
     <updated>2019-04-02T07:26:37.409Z</updated>
     
@@ -35,17 +35,17 @@
     
     </summary>
     
-      <category term="算法" scheme="https://codes-of-louis.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="https://codes-of-husky.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
-      <category term="排序" scheme="https://codes-of-louis.github.io/categories/%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/"/>
+      <category term="排序" scheme="https://codes-of-husky.github.io/categories/%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F/"/>
     
     
   </entry>
   
   <entry>
     <title>重庆</title>
-    <link href="https://codes-of-louis.github.io/2019-03-22-Chongqing/"/>
-    <id>https://codes-of-louis.github.io/2019-03-22-Chongqing/</id>
+    <link href="https://codes-of-husky.github.io/2019-03-22-Chongqing/"/>
+    <id>https://codes-of-husky.github.io/2019-03-22-Chongqing/</id>
     <published>2019-03-21T16:00:00.000Z</published>
     <updated>2019-04-02T07:25:34.671Z</updated>
     
@@ -61,15 +61,15 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://codes-of-louis.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="https://codes-of-husky.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
   </entry>
   
   <entry>
     <title>一些提高效率的小工具</title>
-    <link href="https://codes-of-louis.github.io/2019-03-20-Tool_set/"/>
-    <id>https://codes-of-louis.github.io/2019-03-20-Tool_set/</id>
+    <link href="https://codes-of-husky.github.io/2019-03-20-Tool_set/"/>
+    <id>https://codes-of-husky.github.io/2019-03-20-Tool_set/</id>
     <published>2019-03-20T08:00:05.000Z</published>
     <updated>2019-03-29T06:38:33.651Z</updated>
     
@@ -85,17 +85,17 @@
     
     </summary>
     
-      <category term="技术" scheme="https://codes-of-louis.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://codes-of-husky.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="工具" scheme="https://codes-of-louis.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://codes-of-husky.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/"/>
     
     
   </entry>
   
   <entry>
     <title>如何提高打字速度</title>
-    <link href="https://codes-of-louis.github.io/2019-03-19-How_to_type_fast/"/>
-    <id>https://codes-of-louis.github.io/2019-03-19-How_to_type_fast/</id>
+    <link href="https://codes-of-husky.github.io/2019-03-19-How_to_type_fast/"/>
+    <id>https://codes-of-husky.github.io/2019-03-19-How_to_type_fast/</id>
     <published>2019-03-19T13:27:39.000Z</published>
     <updated>2019-04-02T07:25:33.210Z</updated>
     
@@ -111,15 +111,15 @@
     
     </summary>
     
-      <category term="技术" scheme="https://codes-of-louis.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://codes-of-husky.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
   </entry>
   
   <entry>
     <title>使用Hexo在GitHub上搭建个人博客</title>
-    <link href="https://codes-of-louis.github.io/2019-03-12-Build_your_personal_blog_using_hexo/"/>
-    <id>https://codes-of-louis.github.io/2019-03-12-Build_your_personal_blog_using_hexo/</id>
+    <link href="https://codes-of-husky.github.io/2019-03-12-Build_your_personal_blog_using_hexo/"/>
+    <id>https://codes-of-husky.github.io/2019-03-12-Build_your_personal_blog_using_hexo/</id>
     <published>2019-03-12T02:14:39.000Z</published>
     <updated>2019-04-02T07:25:35.209Z</updated>
     
@@ -135,17 +135,17 @@
     
     </summary>
     
-      <category term="技术" scheme="https://codes-of-louis.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://codes-of-husky.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="工具" scheme="https://codes-of-louis.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://codes-of-husky.github.io/categories/%E6%8A%80%E6%9C%AF/%E5%B7%A5%E5%85%B7/"/>
     
     
   </entry>
   
   <entry>
     <title>你好，世界！</title>
-    <link href="https://codes-of-louis.github.io/2019-03-11-Hello_World/"/>
-    <id>https://codes-of-louis.github.io/2019-03-11-Hello_World/</id>
+    <link href="https://codes-of-husky.github.io/2019-03-11-Hello_World/"/>
+    <id>https://codes-of-husky.github.io/2019-03-11-Hello_World/</id>
     <published>2019-03-10T16:00:00.000Z</published>
     <updated>2019-04-02T07:25:34.118Z</updated>
     
@@ -163,7 +163,7 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://codes-of-louis.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="https://codes-of-husky.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
   </entry>
