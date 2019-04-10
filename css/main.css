@@ -181,7 +181,7 @@ th {
 }
 ::selection {
   background: #262a30;
-  color: #fff;
+  color: $white;
 }
 body {
   position: relative;
@@ -189,7 +189,7 @@ body {
   font-size: 15px;
   line-height: 2;
   color: #111;
-  background: #fff;
+  background: $white;
 }
 @media (max-width: 767px) {
   body {
@@ -1120,7 +1120,7 @@ pre .javascript .function {
   background: #222;
   font-size: 12px;
   opacity: 1;
-  color: #fff;
+  color: #fc6423;
   cursor: pointer;
   text-align: center;
   -webkit-transform: translateZ(0);
@@ -1184,13 +1184,13 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
   font-family: 'Noto Serif SC', 'Noto Serif SC', "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Heiti SC", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 14px;
   color: #999;
 }
 .use-motion .brand {
@@ -1818,7 +1818,7 @@ pre .javascript .function {
 .site-description {
   margin-top: 5px;
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   color: #999;
 }
 .site-state {
@@ -1895,7 +1895,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cdc61f;
+  background: #c99aff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2561,6 +2561,9 @@ embed {
   display: block;
   margin: 0px auto 25px auto;
 }
+.body {
+  background: rgba(255,255,254,0.8);
+}
 .custom-logo .site-meta-headline {
   text-align: center;
 }
@@ -2660,4 +2663,25 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Backgrounds/resize.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  #footer a {
+    color: #eee;
+  }
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 80px;
+  -webkit-box-shadow: 0 0 14px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 14px rgba(202,203,204,0.5);
+  background: #fff;
+  opacity: 0.9;
 }
