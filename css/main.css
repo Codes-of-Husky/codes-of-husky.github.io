@@ -1895,7 +1895,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1cfb0d;
+  background: #9af6ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2561,9 +2561,6 @@ embed {
   display: block;
   margin: 0px auto 25px auto;
 }
-.body {
-  background: rgba(255,255,254,0.8);
-}
 .custom-logo .site-meta-headline {
   text-align: center;
 }
@@ -2676,10 +2673,10 @@ embed {
     color: #eee;
   }
 }
-.post {
+.main-inner {
   margin-top: 60px;
   margin-bottom: 60px;
-  padding: 40px;
+  padding: 80px;
   -webkit-box-shadow: 0 0 14px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 14px rgba(202,203,204,0.5);
   background: #fff;
