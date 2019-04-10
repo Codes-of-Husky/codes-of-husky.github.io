@@ -1962,7 +1962,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #21acff;
+  background: #eccc69;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2728,9 +2728,9 @@ embed {
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   body {
-    background-image: url("https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Backgrounds/resize.jpg");
+    background-image: url("https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Backgrounds/zen-1255_986.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
@@ -2748,4 +2748,68 @@ embed {
   -moz-box-shadow: 0 0 14px rgba(202,203,204,0.5);
   background: #fff;
   opacity: 0.9;
+}
+.pagination {
+  border: none;
+}
+p.description {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  color: #666;
+  margin-top: 30px;
+}
+code.description {
+  padding: 1px 1px 1px 1px;
+  margin: 0px 1px 0px 4px;
+}
+@media (max-width: 1023px) {
+  .container {
+    background-color: #f5f5f5;
+  }
+  .sidebar {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .feed-link {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .posts-expand {
+    margin: 0px;
+    padding-top: 0x;
+  }
+  .posts-expand .post-title {
+    font-size: 22px;
+  }
+  .posts-expand .post-meta {
+    font-size: 10px;
+  }
+  .post {
+    margin-bottom: 10px !important;
+    padding: 20px 15px 15px 15px !important;
+  }
+  .post-body h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-left: -15px;
+    padding-left: 11px;
+  }
+  .posts-expand .post-tags {
+    margin-top: 10px;
+  }
+  .post-widgets {
+    margin-top: 10px;
+  }
+}
+.sidebar-active #sidebar-dimmer {
+  opacity: 0;
 }
