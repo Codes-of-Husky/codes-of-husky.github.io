@@ -181,7 +181,7 @@ th {
 }
 ::selection {
   background: #262a30;
-  color: $white;
+  color: #fff;
 }
 body {
   position: relative;
@@ -189,7 +189,7 @@ body {
   font-size: 15px;
   line-height: 2;
   color: #111;
-  background: $white;
+  background: #fff;
 }
 @media (max-width: 767px) {
   body {
@@ -1962,7 +1962,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #eccc69;
+  background: #8752e0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2728,7 +2728,7 @@ embed {
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   body {
     background-image: url("https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Backgrounds/zen-1255_986.jpg");
     background-repeat: no-repeat;
@@ -2736,11 +2736,8 @@ embed {
     background-position: 50% 50%;
     background-size: cover;
   }
-  #footer a {
-    color: #eee;
-  }
 }
-.main-inner {
+.content {
   margin-top: 30px;
   margin-bottom: 60px;
   padding: 50px;
@@ -2763,23 +2760,32 @@ code.description {
   padding: 1px 1px 1px 1px;
   margin: 0px 1px 0px 4px;
 }
-@media (max-width: 1023px) {
-  .container {
-    background-color: #f5f5f5;
-  }
-  .sidebar {
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-  }
-  .feed-link {
-    display: none !important;
-  }
-}
 @media (max-width: 767px) {
+  .header-inner {
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
   .main {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  .content {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+  }
+  .posts-expand .post-eof {
+    display: block;
+    margin: 30px auto 0px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
   }
   .posts-expand {
     margin: 0px;
@@ -2792,8 +2798,10 @@ code.description {
     font-size: 10px;
   }
   .post {
-    margin-bottom: 10px !important;
-    padding: 20px 15px 15px 15px !important;
+    padding-top: 0px !important;
+    padding-right: 10px !important;
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
   }
   .post-body h2,
   h3,
@@ -2808,6 +2816,16 @@ code.description {
   }
   .post-widgets {
     margin-top: 10px;
+  }
+  .pagination {
+    margin: 40px 0 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    border: none;
+  }
+  .posts-collapse .collection-title {
+    position: relative;
+    margin: 20px 0;
   }
 }
 .sidebar-active #sidebar-dimmer {
