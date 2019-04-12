@@ -1251,13 +1251,13 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: normal;
   font-family: 'Noto Serif SC', 'Noto Serif SC', "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Heiti SC", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 15px;
   color: #999;
 }
 .use-motion .brand {
@@ -1962,7 +1962,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a722ff;
+  background: #4ae5a6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2738,7 +2738,7 @@ embed {
   }
 }
 .content {
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 60px;
   padding: 50px;
   -webkit-box-shadow: 0 0 14px rgba(202,203,203,0.5);
@@ -2838,4 +2838,11 @@ code.description {
 }
 .sidebar-active #sidebar-dimmer {
   opacity: 0;
+}
+.brand {
+  padding: 3px 40px;
+}
+.menu .menu-item a,
+.menu .menu-item span.exturl {
+  font-size: 14px;
 }
