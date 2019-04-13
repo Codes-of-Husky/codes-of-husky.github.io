@@ -1962,7 +1962,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4ae5a6;
+  background: #2ebbff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2730,7 +2730,7 @@ embed {
 }
 @media screen and (min-width: 768px) {
   body {
-    background-image: url("https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Backgrounds/zen-1255_986.jpg");
+    background-image: url("https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Backgrounds/sarah-dorweiler.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
@@ -2741,8 +2741,8 @@ embed {
   margin-top: 0px;
   margin-bottom: 60px;
   padding: 50px;
-  -webkit-box-shadow: 0 0 14px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 14px rgba(202,203,204,0.5);
+  -webkit-box-shadow: 0 0 16px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 16px rgba(202,203,204,0.5);
   background: #fff;
   opacity: 1;
 }
