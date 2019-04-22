@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://codes-of-husky.github.io/Git/</loc>
+    <loc>https://codes-of-husky.github.io/Power_tools/</loc>
     
-    <lastmod>2019-04-22T00:30:17.359Z</lastmod>
+    <lastmod>2019-04-22T00:41:23.243Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://codes-of-husky.github.io/Sorting_algorithms/</loc>
+    
+    <lastmod>2019-04-22T00:41:22.464Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://codes-of-husky.github.io/Power_git/</loc>
+    
+    <lastmod>2019-04-22T00:41:21.325Z</lastmod>
     
   </url>
   
@@ -33,20 +47,6 @@
     <loc>https://codes-of-husky.github.io/How_to_keep_fit/</loc>
     
     <lastmod>2019-04-21T09:14:41.241Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://codes-of-husky.github.io/Sorting/</loc>
-    
-    <lastmod>2019-04-21T09:14:36.817Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://codes-of-husky.github.io/Tools/</loc>
-    
-    <lastmod>2019-04-21T09:14:33.593Z</lastmod>
     
   </url>
   
