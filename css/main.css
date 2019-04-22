@@ -1939,7 +1939,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5505c1;
+  background: #0eb94b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2814,15 +2814,4 @@ embed {
 }
 .pagination {
   border: none;
-}
-p.description {
-  text-align: center;
-  font-size: 14px;
-  font-style: italic;
-  color: #666;
-  margin-top: 30px;
-}
-code.description {
-  padding: 1px 1px 1px 1px;
-  margin: 0px 1px 0px 4px;
 }
