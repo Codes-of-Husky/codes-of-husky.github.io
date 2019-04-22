@@ -1939,7 +1939,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #910f49;
+  background: #0bff47;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2705,6 +2705,31 @@ embed {
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
 }
+.pagination {
+  border: none;
+}
+.sidebar {
+  opacity: 0.9;
+}
+.sidebar-active #sidebar-dimmer {
+  opacity: 0.9;
+}
+.brand {
+  padding: 3px 40px;
+}
+.menu .menu-item a,
+.menu .menu-item span.exturl {
+  font-size: 14px;
+}
+.content {
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding: 50px;
+  -webkit-box-shadow: 0 0 16px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 16px rgba(202,203,204,0.5);
+  background: #fff;
+  opacity: 1;
+}
 @media screen and (min-width: 768px) {
   body {
     background-image: url("https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Backgrounds/sarah-dorweiler.jpg");
@@ -2726,36 +2751,31 @@ embed {
     padding-bottom: 10px;
   }
   .content {
-    margin-top: 40px;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-right: 10px;
     padding-bottom: 0px;
     padding-left: 10px;
   }
-  .posts-expand .post-eof {
-    display: block;
-    margin: 30px auto 0px;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-  }
   .posts-expand {
     margin: 0px;
-    padding-top: 0x;
+    padding-top: 0px;
   }
-  .posts-expand .post-title {
-    font-size: 22px;
-  }
-  .posts-expand .post-meta {
-    font-size: 10px;
+  .post-block {
+    padding: 30px 0 !important;
   }
   .post {
     padding-top: 0px !important;
     padding-right: 10px !important;
     padding-bottom: 0px !important;
     padding-left: 10px !important;
+  }
+  .posts-expand .post-title {
+    font-size: 22px;
+  }
+  .posts-expand .post-meta {
+    font-size: 10px;
   }
   .post-body h2,
   h3,
@@ -2768,11 +2788,16 @@ embed {
   .posts-expand .post-tags {
     margin-top: 10px;
   }
+  .posts-expand .post-eof {
+    display: block;
+    margin: 30px auto 0px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
   .post-widgets {
     margin-top: 10px;
-  }
-  .post-block {
-    padding: 30px 0 !important;
   }
   .pagination {
     margin: 40px 0 20px;
@@ -2789,26 +2814,4 @@ embed {
     padding: 0px 25px 20px 25px;
     box-shadow: 0px 0px 0px #000;
   }
-}
-.sidebar-active #sidebar-dimmer {
-  opacity: 0;
-}
-.brand {
-  padding: 3px 40px;
-}
-.menu .menu-item a,
-.menu .menu-item span.exturl {
-  font-size: 14px;
-}
-.content {
-  margin-top: 0px;
-  margin-bottom: 60px;
-  padding: 50px;
-  -webkit-box-shadow: 0 0 16px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 16px rgba(202,203,204,0.5);
-  background: #fff;
-  opacity: 1;
-}
-.pagination {
-  border: none;
 }
