@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://codes-of-husky.github.io/Build-your-hexo-blog/</loc>
+    
+    <lastmod>2019-04-28T09:28:12.758Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://codes-of-husky.github.io/Power-tools/</loc>
     
     <lastmod>2019-04-28T08:19:58.694Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://codes-of-husky.github.io/Power-git/</loc>
     
     <lastmod>2019-04-27T02:45:26.192Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://codes-of-husky.github.io/Build-your-hexo-blog/</loc>
-    
-    <lastmod>2019-04-27T02:25:40.540Z</lastmod>
     
   </url>
   
