@@ -495,14 +495,14 @@
             <p>Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。我们可以用 Git 来管理自己的项目以及其它的一些需要记录历史版本信息的文件。本文为你介绍 Git 的安装和一些常见情况下的使用方法。</p>
           </div>
 <div class="note warning">
-            <p>本文所说的 <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS8=" title="https://git-scm.com/">Git<i class="fa fa-external-link"></i></span> 是指 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开源的分布式版本控制软件，而不是全球最大的<del>同性交友</del>代码托管网站 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==" title="https://github.com/">GitHub<i class="fa fa-external-link"></i></span>。</p>
+            <p>本文所说的 <a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a> 是指 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开源的分布式版本控制软件，而不是全球最大的<del>同性交友</del>代码托管网站 <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>。</p>
           </div>
 <h2 id="Git介绍"><a href="#Git介绍" class="headerlink" title="Git介绍"></a>Git介绍</h2><p>版本控制工具记录着项目随着项目的推进所进行的所有的更改。有了版本控制工具，开发者可以自信的增加新的项目内容、删除无用的项目内容和调试 Bug，因为他们可以自由的将项目回退到任意的时刻。</p>
 <p>假设你现在正在开发一个项目，经过了一天的忙碌，完成了项目要求的<code>A</code>,<code>B</code>,<code>C</code>功能。到了第二天，你发现项目并不需要<code>B</code>功能，想要删除<code>B</code>功能，但是又害怕以后会用到<code>B</code>功能，所以你新建了一个名为<code>项目（副本）</code>的文件夹来存储带有功能<code>B</code>的项目，然后在原项目的基础上删除了<code>B</code>功能。到了第三天，经过了一天的忙碌，你完成了项目要求的<code>D</code>功能，你想着项目文件需要备份一下，所以新建了一个<code>项目（副本2）</code>的文件夹来备份项目。经过了一星期之后，你发现电脑磁盘里充满着<code>项目（副本*）</code>的文件夹，此时你想重新为项目增加原先删除的<code>B</code>功能，但你已经记不清楚含有<code>B</code>功能的项目文件保存在了哪个文件夹里，只好一个一个的去找。</p>
 <p>最后你发现随着项目的推进，备份文件越来越多，你想删除一个，只保留最新的更改，但是又害怕以后会用到之前的文件。最要命的是，你在开发的过程中，遇到过一个 Bug，你把项目代码拷贝给了你的同学后继续进行你的开发。第二天，他调试完 Bug 后把代码发给了你，你发现你得回忆起在把代码给他的期间你对代码进行了哪些更改，并需要把你们的更改合并起来。</p>
 <p>此时，你想，如果有一个软件可以自动记录我开发项目的过程，可以让我在项目的历史版本中间穿梭自如，可以自动合并我和我同学同时对代码所作的改动就好了……</p>
 <p>Git 就是这样的一个工具。Git 是 Linus Torvalds 用 C 语言开发的，因为 Linus Torvalds 认为 C++ 是<del>邪教</del>😲</p>
-<h2 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h2><p>Git 在 Microsoft Windows、Linux 以及 MacOS 上都有发行版，你可以在 <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=" title="https://git-scm.com/downloads">Git 下载页面<i class="fa fa-external-link"></i></span>下载安装你所需要的对应版本。</p>
+<h2 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h2><p>Git 在 Microsoft Windows、Linux 以及 MacOS 上都有发行版，你可以在 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git 下载页面</a>下载安装你所需要的对应版本。</p>
 <h2 id="Git使用"><a href="#Git使用" class="headerlink" title="Git使用"></a>Git使用</h2><p>Git 称一个项目为<strong>仓库</strong>（英文名 repository）。仓库里面存放着有关项目的所有信息和它们对应的历史版本信息。文件的历史版本信息看起来像是一个快照，Git 称其为<strong>提交</strong>（英文名 commits）。commits 之间的关系就像是链接在一起的列表，它们也可以被组织成并行的链表样式，这样每一个链称作为一个<strong>分支</strong>（英文名 branches）。由于 Git 是一个分布式的版本控制系统，因此每个仓库都包含项目存放在仓库里的所有信息，且所有的仓库都是平等的。</p>
 <h3 id="初始化一个仓库"><a href="#初始化一个仓库" class="headerlink" title="初始化一个仓库"></a>初始化一个仓库</h3><p>如果你现在从零开始开发一个项目，你需要首先初始化一个仓库。新建一个存放项目的文件夹，起上一个符合项目气质的名字，然后切换到项目文件夹下，<strong>初始化</strong>一个仓库：</p>
 <figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init    % 初始化一个仓库</span><br></pre></td></tr></table></figure>
@@ -545,28 +545,28 @@
           </div>
 <h2 id="图形化Git客户端"><a href="#图形化Git客户端" class="headerlink" title="图形化Git客户端"></a>图形化Git客户端</h2><p>对于专业的开发者，使用命令行来进行操作显得专业而且使用方便，但是对于习惯了图形界面的开发者来说，通过直观好看的界面来进行操作则尽显其优雅。</p>
 <h3 id="gitk-和-Git-GUI"><a href="#gitk-和-Git-GUI" class="headerlink" title="gitk 和 Git-GUI"></a>gitk 和 Git-GUI</h3><p>Git 自带的图形化客户端，对 Git 命令进行了图形化显示。</p>
-<h3 id="GitHub-Desktop"><a href="#GitHub-Desktop" class="headerlink" title="GitHub Desktop"></a><span class="exturl" data-url="aHR0cHM6Ly9kZXNrdG9wLmdpdGh1Yi5jb20v" title="https://desktop.github.com/">GitHub Desktop<i class="fa fa-external-link"></i></span></h3><p>代码托管网站 GitHub 提供的图形化 Git 客户端，与 GitHub 集成度很高，也可以结合其它代码托管网站使用。你在 Git 官方书籍 <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9ib29r" title="https://git-scm.com/book">《Pro Git》<i class="fa fa-external-link"></i></span> 的<span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9ib29rL3poL3YyLyVFOSU5OSU4NCVFNSVCRCU5NS1BJTNBLSVFNSU4NSVCNiVFNSVBRSU4MyVFNyU4RSVBRiVFNSVBMiU4MyVFNCVCOCVBRCVFNyU5QSU4NC1HaXQtJUU1JTlCJUJFJUU1JUJEJUEyJUU3JTk1JThDJUU5JTlEJUEy" title="https://git-scm.com/book/zh/v2/%E9%99%84%E5%BD%95-A%3A-%E5%85%B6%E5%AE%83%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84-Git-%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2">附录A：其它环境中的 Git 图形界面<i class="fa fa-external-link"></i></span>中可以看到 Git 官方给出的介绍。</p>
-<h3 id="Sourcetree"><a href="#Sourcetree" class="headerlink" title="Sourcetree"></a><span class="exturl" data-url="aHR0cHM6Ly93d3cuc291cmNldHJlZWFwcC5jb20v" title="https://www.sourcetreeapp.com/">Sourcetree<i class="fa fa-external-link"></i></span></h3><p>代码托管网站 Bitbucket 提供的图形化 Git 客户端，与 Bitbucket 集成度很高，可以结合其它代码托管网站使用。</p>
+<h3 id="GitHub-Desktop"><a href="#GitHub-Desktop" class="headerlink" title="GitHub Desktop"></a><a href="https://desktop.github.com/" target="_blank" rel="noopener">GitHub Desktop</a></h3><p>代码托管网站 GitHub 提供的图形化 Git 客户端，与 GitHub 集成度很高，也可以结合其它代码托管网站使用。你在 Git 官方书籍 <a href="https://git-scm.com/book" target="_blank" rel="noopener">《Pro Git》</a> 的<a href="https://git-scm.com/book/zh/v2/%E9%99%84%E5%BD%95-A%3A-%E5%85%B6%E5%AE%83%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84-Git-%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2" target="_blank" rel="noopener">附录A：其它环境中的 Git 图形界面</a>中可以看到 Git 官方给出的介绍。</p>
+<h3 id="Sourcetree"><a href="#Sourcetree" class="headerlink" title="Sourcetree"></a><a href="https://www.sourcetreeapp.com/" target="_blank" rel="noopener">Sourcetree</a></h3><p>代码托管网站 Bitbucket 提供的图形化 Git 客户端，与 Bitbucket 集成度很高，可以结合其它代码托管网站使用。</p>
 <div class="note info">
-            <p>除此之外，还有许许多多其它的图形化 Git 客户端，其中既有单一功能的定制工具，也有试图提供 Git 所有功能的复杂应用。 Git 的官方网站整理了一份时下最流行的客户端的<span class="exturl" data-url="aHR0cDovL2dpdC1zY20uY29tL2Rvd25sb2Fkcy9ndWlz" title="http://git-scm.com/downloads/guis">清单<i class="fa fa-external-link"></i></span>。 在 Git 的<span class="exturl" data-url="aHR0cHM6Ly9naXQud2lraS5rZXJuZWwub3JnL2luZGV4LnBocC9JbnRlcmZhY2VzLF9mcm9udGVuZHMsX2FuZF90b29scyNHcmFwaGljYWxfSW50ZXJmYWNlcy4=" title="https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools#Graphical_Interfaces.">维基站点<i class="fa fa-external-link"></i></span>还可以看到一份更全的清单。</p>
+            <p>除此之外，还有许许多多其它的图形化 Git 客户端，其中既有单一功能的定制工具，也有试图提供 Git 所有功能的复杂应用。 Git 的官方网站整理了一份时下最流行的客户端的<a href="http://git-scm.com/downloads/guis" target="_blank" rel="noopener">清单</a>。 在 Git 的<a href="https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools#Graphical_Interfaces." target="_blank" rel="noopener">维基站点</a>还可以看到一份更全的清单。</p>
           </div>
 <h2 id="流行的代码托管网站"><a href="#流行的代码托管网站" class="headerlink" title="流行的代码托管网站"></a>流行的代码托管网站</h2><p>如果你属于个人开发者，自己搭建一个远端服务器来管理项目显得成本太高。鉴于全世界的开发者都有这样的需求，代码托管网站应运而生，代码托管网站起到了远端仓库的作用。代码托管网站同时还是开源社区的有力贡献者，因着其不对托管在网站上的公开仓库收费。因此对于个人开发者，选择代码托管网站需要考虑自己的创意项目是否可以公开出来与大家共享。好在现有的大多数代码托管网站都开始允许个人开发者或者小型的团队创建免费的私有仓库，但是一般会限制其仓库大小。下面的几个比较流行的代码托管网站，其各有自己的特色。</p>
-<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==" title="https://github.com/">GitHub<i class="fa fa-external-link"></i></span></h3><p>GitHub 是最大的 Git 版本库托管商，是成千上万的开发者和项目能够合作进行的中心。大部分 Git 版本库都托管在 GitHub，很多开源项目使用 GitHub 实现 Git 托管、问题追踪、代码审查以及其它事情。<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3ByaWNpbmc=" title="https://github.com/pricing">这个页面<i class="fa fa-external-link"></i></span>给出了 GitHub 的付费计划详情。</p>
+<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></h3><p>GitHub 是最大的 Git 版本库托管商，是成千上万的开发者和项目能够合作进行的中心。大部分 Git 版本库都托管在 GitHub，很多开源项目使用 GitHub 实现 Git 托管、问题追踪、代码审查以及其它事情。<a href="https://github.com/pricing" target="_blank" rel="noopener">这个页面</a>给出了 GitHub 的付费计划详情。</p>
 <p>在被微软收购前，GitHub 不提供免费的私有仓库。如今，GitHub 上的个人开发者也可以免费拥有无数量限制的私有仓库，并且支持最多三人的团队协作。由于 GitHub 现已几乎成为世界上最大的开源项目的存储、分发站点，开发者在 GitHub 上可以对开源项目做出自己的贡献。这些贡献体现着自己的实力，因此如今很多开发者在求职的时候会引以为傲的给出自己的 GitHub 账户主页来展示自己的实力。</p>
-<h3 id="Bitbucket"><a href="#Bitbucket" class="headerlink" title="Bitbucket"></a><span class="exturl" data-url="aHR0cHM6Ly9iaXRidWNrZXQub3JnLw==" title="https://bitbucket.org/">Bitbucket<i class="fa fa-external-link"></i></span></h3><p>Bitbucket 是另一个知名的代码托管网站，在 GitHub 对于个人开发者账户并不提供免费的私有仓库存储时，大多数开发者会将自己不方便分享的项目存储于此。<span class="exturl" data-url="aHR0cHM6Ly9iaXRidWNrZXQub3JnL3Byb2R1Y3QvcHJpY2luZw==" title="https://bitbucket.org/product/pricing">这个页面<i class="fa fa-external-link"></i></span>给出了 Bitbucket 的付费计划详情。</p>
+<h3 id="Bitbucket"><a href="#Bitbucket" class="headerlink" title="Bitbucket"></a><a href="https://bitbucket.org/" target="_blank" rel="noopener">Bitbucket</a></h3><p>Bitbucket 是另一个知名的代码托管网站，在 GitHub 对于个人开发者账户并不提供免费的私有仓库存储时，大多数开发者会将自己不方便分享的项目存储于此。<a href="https://bitbucket.org/product/pricing" target="_blank" rel="noopener">这个页面</a>给出了 Bitbucket 的付费计划详情。</p>
 <p>Bitbucket 提供学术账号和社区账号，使用你都学校邮箱或者你都非盈利组织邮箱注册账号，Bitbucket 会自动将你的账号升级，其享有的权益和标准付费计划一致。在 GitHub 并不提供免费私有仓库的时候，我将自己不方便分享的项目存放在 Bitbucket 上，将可以分享的项目存放在 GitHub 上。</p>
 <div class="note info">
-            <p>除了上述两个最大的代码托管网站外，还有 <span class="exturl" data-url="aHR0cHM6Ly9hYm91dC5naXRsYWIuY29tLw==" title="https://about.gitlab.com/">GitLab<i class="fa fa-external-link"></i></span> 和 <span class="exturl" data-url="aHR0cHM6Ly9jb2RpbmcubmV0Lw==" title="https://coding.net/">Coding<i class="fa fa-external-link"></i></span> 可以选择。</p>
+            <p>除了上述两个最大的代码托管网站外，还有 <a href="https://about.gitlab.com/" target="_blank" rel="noopener">GitLab</a> 和 <a href="https://coding.net/" target="_blank" rel="noopener">Coding</a> 可以选择。</p>
           </div>
 <p>—<strong>全文完</strong>—</p>
 <hr>
 <h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
-<li><span class="exturl" data-url="aHR0cDovL21hcmtsb2RhdG8uZ2l0aHViLmlvL3Zpc3VhbC1naXQtZ3VpZGUvaW5kZXgtemgtY24uaHRtbA==" title="http://marklodato.github.io/visual-git-guide/index-zh-cn.html">图解 Git<i class="fa fa-external-link"></i></span></li>
-<li><span class="exturl" data-url="aHR0cDovL3JvZ2VyZHVkbGVyLmdpdGh1Yi5pby9naXQtZ3VpZGUv" title="http://rogerdudler.github.io/git-guide/">Git-Guide<i class="fa fa-external-link"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9ib29r" title="https://git-scm.com/book">Git 官方书籍《Pro Git》<i class="fa fa-external-link"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb2Nz" title="https://git-scm.com/docs">Git 官方文档<i class="fa fa-external-link"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly9ndWlkZXMuZ2l0aHViLmNvbS9pbnRyb2R1Y3Rpb24vZ2l0LWhhbmRib29rLw==" title="https://guides.github.com/introduction/git-handbook/">GitHub: Git Handbook<i class="fa fa-external-link"></i></span></li>
-<li><span class="exturl" data-url="aHR0cHM6Ly93d3cuYXRsYXNzaWFuLmNvbS9naXQ=" title="https://www.atlassian.com/git">Bitbucket: Git Tutorials<i class="fa fa-external-link"></i></span></li>
+<li><a href="http://marklodato.github.io/visual-git-guide/index-zh-cn.html" target="_blank" rel="noopener">图解 Git</a></li>
+<li><a href="http://rogerdudler.github.io/git-guide/" target="_blank" rel="noopener">Git-Guide</a></li>
+<li><a href="https://git-scm.com/book" target="_blank" rel="noopener">Git 官方书籍《Pro Git》</a></li>
+<li><a href="https://git-scm.com/docs" target="_blank" rel="noopener">Git 官方文档</a></li>
+<li><a href="https://guides.github.com/introduction/git-handbook/" target="_blank" rel="noopener">GitHub: Git Handbook</a></li>
+<li><a href="https://www.atlassian.com/git" target="_blank" rel="noopener">Bitbucket: Git Tutorials</a></li>
 </ol>
 
       
@@ -742,7 +742,7 @@
                   
                     
                   
-                  <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0NvZGVzLW9mLUh1c2t5" title="GitHub &rarr; https://github.com/Codes-of-Husky"><i class="fa fa-fw fa-github"></i>GitHub</span>
+                  <a href="https://github.com/Codes-of-Husky" title="GitHub &rarr; https://github.com/Codes-of-Husky" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
                 </span>
               
             </div>
@@ -756,7 +756,7 @@
               
               
               
-              <span class="exturl cc-opacity" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></span>
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
              </div>
           
 
@@ -770,27 +770,27 @@
               <ul class="links-of-blogroll-list">
                 
                   <li class="links-of-blogroll-item">
-                    <span class="exturl" data-url="aHR0cDovL29wZW5kYXRhc3RydWN0dXJlcy5vcmcv" title="http://opendatastructures.org/">ODS</span>
+                    <a href="http://opendatastructures.org/" title="http://opendatastructures.org/" rel="noopener" target="_blank">ODS</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <span class="exturl" data-url="aHR0cHM6Ly9taXRwcmVzcy5taXQuZWR1L3NpdGVzL2RlZmF1bHQvZmlsZXMvc2ljcC9mdWxsLXRleHQvYm9vay9ib29rLmh0bWw=" title="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html">SICP</span>
+                    <a href="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html" title="https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html" rel="noopener" target="_blank">SICP</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <span class="exturl" data-url="aHR0cHM6Ly9ib29rZmVyZS5jb20v" title="https://bookfere.com/">书伴</span>
+                    <a href="https://bookfere.com/" title="https://bookfere.com/" rel="noopener" target="_blank">书伴</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <span class="exturl" data-url="aHR0cHM6Ly93d3cuc2hpLWNpLmNvbS8=" title="https://www.shi-ci.com/">中华诗词</span>
+                    <a href="https://www.shi-ci.com/" title="https://www.shi-ci.com/" rel="noopener" target="_blank">中华诗词</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFyeGlzdHMub3JnL2NoaW5lc2UvaW5kZXguaHRtbA==" title="https://www.marxists.org/chinese/index.html">马克思主义文库</span>
+                    <a href="https://www.marxists.org/chinese/index.html" title="https://www.marxists.org/chinese/index.html" rel="noopener" target="_blank">马克思主义文库</a>
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <span class="exturl" data-url="aHR0cHM6Ly9jdGV4dC5vcmcvemg=" title="https://ctext.org/zh">中国哲学书电子化计划</span>
+                    <a href="https://ctext.org/zh" title="https://ctext.org/zh" rel="noopener" target="_blank">中国哲学书电子化计划</a>
                   </li>
                 
               </ul>
@@ -962,10 +962,17 @@
   
 
   
-  <script src="/js/src/exturl.js?v=7.0.1"></script>
-
 
   
+  
+  
+
+  
+
+  
+  
+  
+
 
   
 
