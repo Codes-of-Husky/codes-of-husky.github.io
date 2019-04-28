@@ -121,7 +121,7 @@
     root: '/',
     scheme: 'Muse',
     version: '7.0.1',
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":true,"dimmer":true},
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":true},
     back2top: true,
     back2top_sidebar: false,
     fancybox: false,
@@ -162,7 +162,7 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Sorting-algorithms/Heapsort-example.gif">
 <meta property="og:image" content="https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Sorting-algorithms/Merge-sort-algorithm-diagram.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Sorting-algorithms/Quicksort-diagram.png">
-<meta property="og:updated_time" content="2019-04-27T02:49:04.609Z">
+<meta property="og:updated_time" content="2019-04-28T08:05:58.326Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="排序算法">
 <meta name="twitter:description" content="排排坐，吃果果🎄">
@@ -504,11 +504,11 @@
 <h3 id="稳定性"><a href="#稳定性" class="headerlink" title="稳定性"></a>稳定性</h3><p>在给定的 $N$ 个数 ${a_{1},a_{2},\dots,a_{N}}$ 中，如果 $a_{j}=a_{k}, j \lt k$。稳定的算法在排序结束后，$a_{j}$ 依然排在 $a_{k}$ 的前面。即稳定的算法不改变相同数据的前后位置。根据算法的稳定性，算法分为稳定的算法和不稳定的算法。</p>
 <h3 id="计算复杂度"><a href="#计算复杂度" class="headerlink" title="计算复杂度"></a>计算复杂度</h3><p><span class="exturl" data-url="aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ29tcHV0YXRpb25hbF9jb21wbGV4aXR5X3RoZW9yeQ==" title="https://en.wikipedia.org/wiki/Computational_complexity_theory">计算复杂度<i class="fa fa-external-link"></i></span>衡量算法随着输入数据规模 $N$ 的增加所需要的时间和空间的变化。把每次元操作（比较、移动、换位）所耗费的时间看作单位时间 $T_{c}$，每个数据占用的空间看作单位空间。根据输入数据的不确定性，算法有最好情况（已经是有序状态）复杂度、最差情况（完全无序）复杂度和平均复杂度。不同的排序算法有着不同的计算复杂度，一般来说我们不可能同时减少时间复杂度和空间复杂度。</p>
 <h3 id="是否进行了比较"><a href="#是否进行了比较" class="headerlink" title="是否进行了比较"></a>是否进行了比较</h3><p>有的排序算法运行过程中会在数据之间进行<span class="exturl" data-url="aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ29tcGFyaXNvbl9zb3J0" title="https://en.wikipedia.org/wiki/Comparison_sort">比较<i class="fa fa-external-link"></i></span>，有的则不会。</p>
-<h2 id="排序算法介绍"><a href="#排序算法介绍" class="headerlink" title="排序算法介绍"></a>排序算法介绍</h2><h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p><span class="exturl" data-url="aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQnViYmxlX3NvcnQ=" title="https://en.wikipedia.org/wiki/Bubble_sort">冒泡排序<i class="fa fa-external-link"></i></span>把数据看作一些大小不一的“泡泡”，两个泡泡相遇，大的“泡泡”会向上（右）飘，小的“泡泡”会向下（左）沉。在排序时，从最左边的“泡泡”开始，它和右边相邻的“泡泡”有一次相遇，大的“泡泡”向右，小的“泡泡”向左。一次扫描过后，最大的“泡泡”会漂浮在顶端，完成它的排序。最多经历 $N$ 次扫描，算法完成排序。<br><img src="https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Sorting-algorithms/Bubble-sort-example.gif" alt="冒泡排序演示"></p>
+<h2 id="排序算法介绍"><a href="#排序算法介绍" class="headerlink" title="排序算法介绍"></a>排序算法介绍</h2><h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p><span class="exturl" data-url="aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQnViYmxlX3NvcnQ=" title="https://en.wikipedia.org/wiki/Bubble_sort">冒泡排序<i class="fa fa-external-link"></i></span>把数据看作一些大小不一的「泡泡」，两个泡泡相遇，大的「泡泡」会向上（右）飘，小的「泡泡」会向下（左）沉。在排序时，从最左边的「泡泡」开始，它和右边相邻的「泡泡」有一次相遇，大的「泡泡」向右，小的「泡泡」向左。一次扫描过后，最大的「泡泡」会漂浮在顶端，完成它的排序。最多经历 $N$ 次扫描，算法完成排序。<br><img src="https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Sorting-algorithms/Bubble-sort-example.gif" alt="冒泡排序演示"></p>
 <h4 id="复杂度分析"><a href="#复杂度分析" class="headerlink" title="复杂度分析"></a>复杂度分析</h4><p>在冒泡排序中，算法每次进行扫描都需要进行比较。第 $n$ 次扫描，产生 $N-n$ 次比较。完成排序共产生 $\sum_{n = 1}^{N} (N-n) \approx \frac{n^{2}}{2}$ 次比较。</p>
 <p>算法在最坏的情况下，即每次比较都需要换位置。第 $n$ 次扫描，产生 $N-n$ 次换位。完成排序共产生 $\sum_{n = 1}^{N} (N-n) \approx \frac{n^{2}}{2}$ 次换位。在最好的情况下，不需要换位。</p>
 <p>故冒泡排序算法的时间复杂度为 $O(n^{2})$。</p>
-<h3 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h3><p><span class="exturl" data-url="aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvU2VsZWN0aW9uX3NvcnQ=" title="https://en.wikipedia.org/wiki/Selection_sort">选择排序<i class="fa fa-external-link"></i></span>就是重复“从待排序的数据中寻找最小值，将其与序列最左边的数字进行交换”这一操作的算法。在序列中寻找最小值时使用的是线性查找。</p>
+<h3 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h3><p><span class="exturl" data-url="aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvU2VsZWN0aW9uX3NvcnQ=" title="https://en.wikipedia.org/wiki/Selection_sort">选择排序<i class="fa fa-external-link"></i></span>就是重复「从待排序的数据中寻找最小值，将其与序列最左边的数字进行交换」这一操作的算法。在序列中寻找最小值时使用的是线性查找。</p>
 <p><img src="https://raw.githubusercontent.com/Codes-of-Husky/blog-imgs/master/Sorting-algorithms/Selection-sort-animation.gif" alt="选择排序演示"></p>
 <h4 id="复杂度分析-1"><a href="#复杂度分析-1" class="headerlink" title="复杂度分析"></a>复杂度分析</h4><p>选择排序使用了线性查找来寻找最小值，其每次扫描过程中的比较操作和冒泡排序一样，共有 $\sum_{n = 1}^{N} (N-n) \approx \frac{n^{2}}{2}$ 次比较。</p>
 <p>每轮中交换数字的次数最多为 1 次。如果输入数据就是按从小到大的顺序排列的，便不需要进行任何交换。选择排序的时间复杂度也和冒泡排序的一样，都为 $O(n^{2})$。</p>
@@ -634,8 +634,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/How-to-keep-fit/" rel="prev" title="如何“减肥”">
-                如何“减肥” <i class="fa fa-chevron-right"></i>
+              <a href="/How-to-keep-fit/" rel="prev" title="如何「减肥」">
+                如何「减肥」 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
