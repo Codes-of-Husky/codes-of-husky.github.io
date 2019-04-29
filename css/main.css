@@ -1955,7 +1955,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fe4e01;
+  background: #ffff98;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2829,6 +2829,10 @@ embed {
     margin-top: 20px;
     padding: 0px 25px 20px 25px;
     box-shadow: 0px 0px 0px #000;
+  }
+  .btn-bar {
+    background: #cb4042;
+    border-radius: 0px;
   }
 }
 .post-nav {
