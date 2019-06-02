@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://codes-of-husky.github.io/about/index.html</loc>
+    
+    <lastmod>2019-06-02T08:47:15.150Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://codes-of-husky.github.io/Weekly-2019-22/</loc>
     
     <lastmod>2019-06-02T02:57:17.148Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://codes-of-husky.github.io/Weekly-2019-20/</loc>
     
     <lastmod>2019-06-02T02:32:37.413Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://codes-of-husky.github.io/about/index.html</loc>
-    
-    <lastmod>2019-05-28T08:01:37.210Z</lastmod>
     
   </url>
   
