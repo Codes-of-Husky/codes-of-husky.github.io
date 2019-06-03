@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://codes-of-husky.github.io/about/index.html</loc>
+    
+    <lastmod>2019-06-03T13:17:16.332Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://codes-of-husky.github.io/Hello_World/</loc>
+    
+    <lastmod>2019-06-03T13:13:36.618Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://codes-of-husky.github.io/Weekly-2019-22/</loc>
     
     <lastmod>2019-06-03T12:34:27.721Z</lastmod>
@@ -89,20 +103,6 @@
     <loc>https://codes-of-husky.github.io/Power-tools/</loc>
     
     <lastmod>2019-06-03T07:23:15.965Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://codes-of-husky.github.io/Hello_World/</loc>
-    
-    <lastmod>2019-06-03T07:22:51.147Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://codes-of-husky.github.io/about/index.html</loc>
-    
-    <lastmod>2019-06-02T08:47:15.150Z</lastmod>
     
   </url>
   

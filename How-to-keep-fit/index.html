@@ -632,7 +632,25 @@
 <li><a href="https://food.hiyd.com/" target="_blank" rel="noopener">另一个食物营养成分查询工具</a></li>
 <li><a href="http://www.boohee.com/user_ask/" target="_blank" rel="noopener">一些减肥知识</a></li>
 </ol>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
       
     </div>
 

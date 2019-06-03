@@ -511,9 +511,9 @@
 <h2 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h2><p>Git 在 Microsoft Windows、Linux 以及 MacOS 上都有发行版，你可以在 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git 下载页面</a>下载安装你所需要的对应版本。</p>
 <h2 id="Git使用"><a href="#Git使用" class="headerlink" title="Git使用"></a>Git使用</h2><p>Git 称一个项目为<strong>仓库</strong>（英文名 repository）。仓库里面存放着有关项目的所有信息和它们对应的历史版本信息。文件的历史版本信息看起来像是一个快照，Git 称其为<strong>提交</strong>（英文名 commits）。commits 之间的关系就像是链接在一起的列表，它们也可以被组织成并行的链表样式，这样每一个链称作为一个<strong>分支</strong>（英文名 branches）。由于 Git 是一个分布式的版本控制系统，因此每个仓库都包含项目存放在仓库里的所有信息，且所有的仓库都是平等的。</p>
 <h3 id="初始化一个仓库"><a href="#初始化一个仓库" class="headerlink" title="初始化一个仓库"></a>初始化一个仓库</h3><p>如果你现在从零开始开发一个项目，你需要首先初始化一个仓库。新建一个存放项目的文件夹，起上一个符合项目气质的名字，然后切换到项目文件夹下，<strong>初始化</strong>一个仓库：</p>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init    % 初始化一个仓库</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init    % 初始化一个仓库</span><br></pre></td></tr></tbody></table></figure>
 <p>如果你是接着已有的项目继续进行开发，则需要<strong>克隆</strong>已有的项目：</p>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> /path/to/repository    % 克隆一个仓库</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> /path/to/repository    % 克隆一个仓库</span><br></pre></td></tr></tbody></table></figure>
 <div class="note info">
             <p>如果你克隆的仓库存储在远端服务器，则仓库的路径<code>/path/to/repository</code>需要改为远端服务器提供的仓库路径</p>
           </div>
@@ -521,27 +521,27 @@
 <div class="note info">
             <p>对于个人开发者，也建议使用远端仓库，这时候远端仓库主要起到备份的作用，以在本地开发环境遭到破坏的时候仍然可以无中断的进行开发；对于团队协作来说，远端仓库的重要性就不言而喻了</p>
           </div>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add /path/to/remote_repository    % 增加一个远端仓库</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add /path/to/remote_repository    % 增加一个远端仓库</span><br></pre></td></tr></tbody></table></figure>
 <h3 id="进行开发"><a href="#进行开发" class="headerlink" title="进行开发"></a>进行开发</h3><p>你开发了一些新功能，想要把项目的改动<strong>存储</strong>在仓库里：</p>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add &lt;file_name&gt;    % 只暂存&lt;file_name&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add <file_name>    % 只暂存<file_name></file_name></file_name></span><br></pre></td></tr></tbody></table></figure>
 <p>或者</p>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add *    % 暂存所有发生更改了的项目文件</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add *    % 暂存所有发生更改了的项目文件</span><br></pre></td></tr></tbody></table></figure>
 <p>然后你需要把暂存的项目<strong>提交</strong>到仓库：</p>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit  -m <span class="string">"commit message"</span>  % 提交改动</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit  -m <span class="string">"commit message"</span>  % 提交改动</span><br></pre></td></tr></tbody></table></figure>
 <p>现在，你已经将想要存储的项目信息提交到了本地仓库中。但是远端仓库(如果有的话)并没有发生改变。如果想要把改动推送到远端仓库，你首先需要有读写远端仓库的权限，一般通过添加 ssh 密钥来获取权限：</p>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></span><br></pre></td></tr></tbody></table></figure>
 <div class="note info">
             <p>如果你已经拥有 ssh 密钥，则不需要生成密钥，直接将公钥放在远端服务器上即可</p>
           </div>
 <p>接着命名密钥文件并设置访问密码。然后将 ssh 生成的公钥放在远端服务器上以获取仓库的读写权限。</p>
 <p>在获取了远端服务器中仓库的读写权限后，就可以将项目<strong>推送</strong>到远端仓库中去了：</p>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push     % 将本地仓库的改动同步到远端仓库</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push     % 将本地仓库的改动同步到远端仓库</span><br></pre></td></tr></tbody></table></figure>
 <p>在任何情况下，想<strong>查看</strong>仓库中暂存的项目情况、项目的改动情况以及仓库的其它信息：</p>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status    % 查看仓库信息</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status    % 查看仓库信息</span><br></pre></td></tr></tbody></table></figure>
 <p>一般情况下，在开发一个项目时，一个较好的习惯时是：在前一天的工作结束后，将自己在本地仓库进行的所有改动推送到远端仓库中去，这时的推送操作起到一个备份的功能：</p>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push    % 将本地仓库的改动同步到远端仓库</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push    % 将本地仓库的改动同步到远端仓库</span><br></pre></td></tr></tbody></table></figure>
 <p>在第二天进行工作时，打开电脑后的第一件事情是将远端仓库的内容拉取到本地仓库，此时的拉取操作起到同步的作用：</p>
-<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull    % 将远端仓库的内容拉取到本地仓库</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>所在目录：~/project/</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull    % 将远端仓库的内容拉取到本地仓库</span><br></pre></td></tr></tbody></table></figure>
 <p>然后继续推进项目。</p>
 <h3 id="团队协作"><a href="#团队协作" class="headerlink" title="团队协作"></a>团队协作</h3><p>如果你正在和你的团队成员一起协作开发一个项目，版本控制工具可以很好的帮助你的团队管理项目文件。一般的，你们需要一个团队所有成员都能访问的服务器来单独存放仓库，在这里称此仓库为远端仓库。团队中会有一个成员来初始化仓库，然后其它的成员通过克隆远端仓库到本地来创建本地仓库。</p>
 <p>在进行开发的时候，所有的团队成员都需要在一天的工作之后，将自己对项目所做的改动推送到远端仓库。在第二天进行开发的时候，首先将远端仓库拉取到本地仓库，然后再进行开发。</p>
@@ -574,7 +574,25 @@
 <li><a href="https://guides.github.com/introduction/git-handbook/" target="_blank" rel="noopener">GitHub: Git Handbook</a></li>
 <li><a href="https://www.atlassian.com/git" target="_blank" rel="noopener">Bitbucket: Git Tutorials</a></li>
 </ol>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
       
     </div>
 
