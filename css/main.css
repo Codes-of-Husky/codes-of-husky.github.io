@@ -1955,7 +1955,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9fffeb;
+  background: #ff4242;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2739,7 +2739,7 @@ embed {
   opacity: 0.9;
 }
 .brand {
-  padding: 3px 40px;
+  padding: 0.231em 3.077em;
 }
 .menu .menu-item a,
 .menu .menu-item span.exturl {
@@ -2747,8 +2747,8 @@ embed {
 }
 .content {
   margin-top: 0px;
-  margin-bottom: 60px;
-  padding: 50px;
+  margin-bottom: 4.615em;
+  padding: 3.846em;
   -webkit-box-shadow: 0 0 16px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 16px rgba(202,203,204,0.5);
   background: #fff;
