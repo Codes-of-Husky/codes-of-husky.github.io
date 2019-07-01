@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Power Git（进阶）]]></title>
-    <url>%2FPower-git-2%2F</url>
-    <content type="text"><![CDATA[我曾经介绍过一些常见情况下的 Git 的使用方法()，但仅仅掌握基本的用法不能够真正的发挥 Git 的作用。我自己在目前的开发中就遇到了很多的问题，，本文介绍一些更加实用的 Git 教程。 ##https://github.com/pcottle/learnGitBranching个在线可视化交互学习 Git 网站，帮助初级开发人员快速理解 Git 操作流程。 commitHEAD^ ~pullpushfetchmergerebaserevertresetbranchcheckoutcherry-picktagdescribe —全文完— 参考文献 document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
-      <categories>
-        <category>技术</category>
-        <category>工具</category>
-      </categories>
-  </entry>
-  <entry>
     <title><![CDATA[周刊（2019 第 25 周）]]></title>
     <url>%2FWeekly-2019-25%2F</url>
     <content type="text"><![CDATA[过去一周的有趣见闻。 #新闻> 重新设计的 Windows Terminal 释出 Windows 10 预览版本微软如约带来重新设计的 Windows Terminal，上架到 Microsoft Store 的虽然仍是预览版本，但他们承诺会有大多新功能都已经能让一众前阶使用者尝鲜了，包括可以在一个工具中使用 Command Prompt、PowerShell 和 Linux 语言，支持标签分页、自定义、网页链接等。 > 苹果召回部分存在电池发热隐患的 MacBookPro苹果技术网站发布公告，宣布了 15 英寸 MacBook Pro 电池召回计划。苹果称，它确定少数较早推出的 15 英寸 MacBook Pro 电脑中的电池可能会过热并造成消防安全隐患。 #资源> LaTex 的历史（英文）Tex 是全世界科学家撰写论文的标准工具，本文介绍这个项目的历史由来和发展。 > 多吉搜索一个新的国产搜索引擎，个人作品，据称目标是成为百度的替代方案之一。 > 数码照相机如何工作（英文）如今每部手机都会至少带有一个摄像头，但是你知道相机真正的工作原理么？ > 计算机科学速成课（英文中字）志愿者从 Youtube 搬到 B 站的40集视频教程。 > 相关系数与余弦相似性（英文）相关系数的十三种解释，记得当时《随机过程》课程上老师有提到过相关系数和余弦的相似性。 > 应用加密法的研究生教材（英文）这是开源研究生教材，介绍密钥加密的知识。 #每周一句首先他们无视于你，而后是嘲笑你，接着是批斗你，再来就是你的胜利之日。–甘地 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
