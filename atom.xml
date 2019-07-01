@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://is-husky.github.io/"/>
-  <updated>2019-07-01T08:10:07.635Z</updated>
+  <updated>2019-07-01T11:35:44.555Z</updated>
   <id>https://is-husky.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Weekly-2019-26</title>
+    <link href="https://is-husky.github.io/Weekly-2019-26/"/>
+    <id>https://is-husky.github.io/Weekly-2019-26/</id>
+    <published>2019-06-28T16:00:00.000Z</published>
+    <updated>2019-07-01T11:35:44.555Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/is-husky/blog-imgs/master/Weekly/Weekly-2019-26.jpg" alt=" "><br><a id="more"></a></p><div class="note info">            <p>过去一周的有趣见闻。</p>          </div><h2 id="新闻"><a href="#新闻" class="headerlink" title="#新闻"></a>#新闻</h2><h3 id="gt-Raspberry-Pi-4-发布"><a href="#gt-Raspberry-Pi-4-发布" class="headerlink" title="> Raspberry Pi 4 发布"></a>> <a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b" target="_blank" rel="noopener">Raspberry Pi 4 发布</a></h3><p>流行单板电脑 Raspberry Pi 发布了最新的 Raspberry Pi 4 Model B，该公司称其桌面性能接近入门级的 x86 PC 系统。Raspberry Pi 4 使用了博通的 BCM2711 SoC，包含四个 1.5GHz Cortex A72 CPU 核心，内存可选 1GB、2GB 和 4GB DDR4，2 个 USB 2 端口 2 个 USB 3 端口，通过一个 USB-C 端口供电，此外还有 Gigabit Ethernet 接口和耳机接口，2 个 micro HDMI 端口，支持两台 4K 显示器。最低配的 1GB 内存版本售价 35 美元，最高配的 4GB 内存版本售价 55 美元，2GB 版本 45 美元。</p><h3 id="gt-Bill-Gates：我的「最大错误」是没能让微软做出-Android-那样的产品"><a href="#gt-Bill-Gates：我的「最大错误」是没能让微软做出-Android-那样的产品" class="headerlink" title="> Bill Gates：我的「最大错误」是没能让微软做出 Android 那样的产品"></a>> <a href="https://cn.engadget.com/2019/06/24/bill-gates-greatest-mistake/" target="_blank" rel="noopener">Bill Gates：我的「最大错误」是没能让微软做出 Android 那样的产品</a></h3><p>假如 Windows 手机平台当年崛起了，移动市场的历史会被如何书写？</p><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-计算机网络：原理，协议和实践"><a href="#gt-计算机网络：原理，协议和实践" class="headerlink" title="> 计算机网络：原理，协议和实践"></a>> <a href="https://www.computer-networking.info/" target="_blank" rel="noopener">计算机网络：原理，协议和实践</a></h3><p>英文的开源电子书，解释了计算机网络的主要原理以及互联网的关键协议，用于高年级本科网络课程。</p><h3 id="gt-加密学导论"><a href="#gt-加密学导论" class="headerlink" title="> 加密学导论"></a>> <a href="https://intensecrypto.org/public/" target="_blank" rel="noopener">加密学导论</a></h3><p>英文的开源电子书，介绍加密背后的数学知识，哈佛大学的本科生教材。</p><h3 id="gt-Dress"><a href="#gt-Dress" class="headerlink" title="> Dress"></a>> <a href="https://github.com/komeiji-satori/Dress" target="_blank" rel="noopener">Dress</a></h3><p>其实，这个项目真的不是完全来搞笑的……搞笑的成分大概只占 80% 吧。剩下的 20% 是认真的在教如何使用 GitHub。你可以从这里学习从克隆项目，创建分支，提交和同步修改，到合并分支请求的整套流程，一次即可熟悉 Git/Github 的使用。</p><h3 id="gt-假截图"><a href="#gt-假截图" class="headerlink" title="> 假截图"></a>> <a href="https://github.com/thegreatjavascript/FakeScreenshot" target="_blank" rel="noopener">假截图</a></h3><p>对抗假消息系列项目之一：截屏 = 实锤？相信你就输了！</p><h2 id="影视"><a href="#影视" class="headerlink" title="#影视"></a>#影视</h2><h3 id="gt-《看不见的客人-The-Invisible-Guest》（2016）"><a href="#gt-《看不见的客人-The-Invisible-Guest》（2016）" class="headerlink" title="> 《看不见的客人 The Invisible Guest》（2016）"></a>> <a href="https://www.imdb.com/title/tt4857264/" target="_blank" rel="noopener">《看不见的客人 The Invisible Guest》（2016）</a></h3><span itemprop="image" itemscope itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/is-husky/blog-imgs/master/Weekly-2019-26/TIG.jpg" class="full-image" alt="电影海报" title="《看不见的客人》" style="max-width: none; width: 11em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><p>自作聪明的往往一败涂地，不动声色的才能笑到最后。</p><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>百善孝为先，论心不论迹，论迹贫家无孝子；万恶淫为首，论迹不论心，论心世上少完人。</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      每周新鲜事📅
+    
+    </summary>
+    
+      <category term="周刊" scheme="https://is-husky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>周刊（2019 第 25 周）</title>

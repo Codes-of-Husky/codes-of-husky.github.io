@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Weekly-2019-26]]></title>
+    <url>%2FWeekly-2019-26%2F</url>
+    <content type="text"><![CDATA[过去一周的有趣见闻。 #新闻> Raspberry Pi 4 发布流行单板电脑 Raspberry Pi 发布了最新的 Raspberry Pi 4 Model B，该公司称其桌面性能接近入门级的 x86 PC 系统。Raspberry Pi 4 使用了博通的 BCM2711 SoC，包含四个 1.5GHz Cortex A72 CPU 核心，内存可选 1GB、2GB 和 4GB DDR4，2 个 USB 2 端口 2 个 USB 3 端口，通过一个 USB-C 端口供电，此外还有 Gigabit Ethernet 接口和耳机接口，2 个 micro HDMI 端口，支持两台 4K 显示器。最低配的 1GB 内存版本售价 35 美元，最高配的 4GB 内存版本售价 55 美元，2GB 版本 45 美元。 > Bill Gates：我的「最大错误」是没能让微软做出 Android 那样的产品假如 Windows 手机平台当年崛起了，移动市场的历史会被如何书写？ #资源> 计算机网络：原理，协议和实践英文的开源电子书，解释了计算机网络的主要原理以及互联网的关键协议，用于高年级本科网络课程。 > 加密学导论英文的开源电子书，介绍加密背后的数学知识，哈佛大学的本科生教材。 > Dress其实，这个项目真的不是完全来搞笑的……搞笑的成分大概只占 80% 吧。剩下的 20% 是认真的在教如何使用 GitHub。你可以从这里学习从克隆项目，创建分支，提交和同步修改，到合并分支请求的整套流程，一次即可熟悉 Git/Github 的使用。 > 假截图对抗假消息系列项目之一：截屏 = 实锤？相信你就输了！ #影视> 《看不见的客人 The Invisible Guest》（2016） 自作聪明的往往一败涂地，不动声色的才能笑到最后。 #每周一句百善孝为先，论心不论迹，论迹贫家无孝子；万恶淫为首，论迹不论心，论心世上少完人。 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[周刊（2019 第 25 周）]]></title>
     <url>%2FWeekly-2019-25%2F</url>
     <content type="text"><![CDATA[过去一周的有趣见闻。 #新闻> 重新设计的 Windows Terminal 释出 Windows 10 预览版本微软如约带来重新设计的 Windows Terminal，上架到 Microsoft Store 的虽然仍是预览版本，但他们承诺会有大多新功能都已经能让一众前阶使用者尝鲜了，包括可以在一个工具中使用 Command Prompt、PowerShell 和 Linux 语言，支持标签分页、自定义、网页链接等。 > 苹果召回部分存在电池发热隐患的 MacBookPro苹果技术网站发布公告，宣布了 15 英寸 MacBook Pro 电池召回计划。苹果称，它确定少数较早推出的 15 英寸 MacBook Pro 电脑中的电池可能会过热并造成消防安全隐患。 #资源> LaTex 的历史（英文）Tex 是全世界科学家撰写论文的标准工具，本文介绍这个项目的历史由来和发展。 > 多吉搜索一个新的国产搜索引擎，个人作品，据称目标是成为百度的替代方案之一。 > 数码照相机如何工作（英文）如今每部手机都会至少带有一个摄像头，但是你知道相机真正的工作原理么？ > 计算机科学速成课（英文中字）志愿者从 Youtube 搬到 B 站的40集视频教程。 > 相关系数与余弦相似性（英文）相关系数的十三种解释，记得当时《随机过程》课程上老师有提到过相关系数和余弦的相似性。 > 应用加密法的研究生教材（英文）这是开源研究生教材，介绍密钥加密的知识。 #每周一句首先他们无视于你，而后是嘲笑你，接着是批斗你，再来就是你的胜利之日。–甘地 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
