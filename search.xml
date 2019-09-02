@@ -17,6 +17,14 @@
       </categories>
   </entry>
   <entry>
+    <title><![CDATA[周刊（2019 第 34 周）]]></title>
+    <url>%2FWeekly-2019-34%2F</url>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> #资源> 领导者的三种模式模式一：「这就是我想要的，你按照我说的做。」模式二：「这就是我想要的，你自己想如何去做。」模式三：「让我们一起弄清楚我们能做些什么。」 #影视> 《》（） #书籍> 《》#每周一句 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[周刊（2019 第 33 周）]]></title>
     <url>%2FWeekly-2019-33%2F</url>
     <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> #NBA>#资源> #影视> 《》（） #书籍> 《》#每周一句 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
