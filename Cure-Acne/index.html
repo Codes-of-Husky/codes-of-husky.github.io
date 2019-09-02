@@ -160,7 +160,7 @@
 <meta property="og:description" content="如何治疗痤疮">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/is-husky/blog-imgs/master/Backgrounds/green-leaves.jpg">
-<meta property="og:updated_time" content="2019-09-02T07:00:32.924Z">
+<meta property="og:updated_time" content="2019-09-02T07:10:46.658Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="中国痤疮治疗指南（2014修订版）">
 <meta name="twitter:description" content="如何治疗痤疮">
@@ -501,7 +501,9 @@
           </div>
 <h2 id="痤疮"><a href="#痤疮" class="headerlink" title="痤疮"></a>痤疮</h2><blockquote class="blockquote-center"><p>「痤疮是一种毛囊皮脂腺的慢性炎症性皮肤病，发病率为 70%～87%，对青少年的心理和社交影响超过了哮喘和癫痫。」</p>
 </blockquote>
-<p>在医生口中听到了「痤疮治疗指南」这个关键词，然后自己查找论文果然找到了这篇《中国痤疮治疗指南》。原来好多处方竟然可以直接从论文里面获取~<br></p><div class="pdf" target="https://raw.githubusercontent.com/is-husky/blog-imgs/master/PDF/Guideline_for_diagnosis_and_treatment_of_acne_the_2014_edition.pdf" height></div><br>—<strong>全文完</strong>—<p></p>
+<p>在医生口中听到了「痤疮治疗指南」这个关键词，然后自己查找论文果然找到了这篇《中国痤疮治疗指南》。原来好多处方竟然可以直接从论文里面获取~</p>
+<div class="pdf" target="https://raw.githubusercontent.com/is-husky/blog-imgs/master/PDF/Guideline_for_diagnosis_and_treatment_of_acne_the_2014_edition.pdf" height></div>
+<p>—<strong>全文完</strong>—</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -1351,6 +1353,26 @@ if ($('body').find('div.pdf').length) {
 
 
   
+<script>
+if ($('body').find('pre.mermaid').length) {
+  $.ajax({
+    type: 'GET',
+    url: '//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js',
+    dataType: 'script',
+    cache: true,
+    success: function() {
+      mermaid.initialize({
+        theme: 'forest',
+        logLevel: 3,
+        flowchart: { curve: 'linear' },
+        gantt: { axisFormat: '%m/%d/%Y' },
+        sequence: { actorMargin: 50 }
+      });
+    }
+  });
+}
+</script>
+
 
   
   <script>

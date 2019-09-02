@@ -11,7 +11,7 @@
   <entry>
     <title><![CDATA[周刊（2019 第 35 周）]]></title>
     <url>%2FWeekly-2019-35%2F</url>
-    <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> #NBA>#资源> Microsoft Azure 优惠活动现在创建 Azure 免费帐户，即可享受免费一年的虚拟主机和前 30 天 200 美元体验金。 #书籍> 《》#每周一句 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> 篮球世界杯开打#NBA>#资源> Microsoft Azure 优惠活动现在创建 Azure 免费帐户，即可享受免费一年的虚拟主机和前 30 天 200 美元体验金。 #书籍> 《》#每周一句 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>周刊</category>
       </categories>
@@ -27,7 +27,7 @@
   <entry>
     <title><![CDATA[周刊（2019 第 33 周）]]></title>
     <url>%2FWeekly-2019-33%2F</url>
-    <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> #NBA>#资源> #影视> 《》（） #书籍> 《》#每周一句 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> #NBA>#资源> #每周一句当市场出现大的热潮时，最好的策略通常不是参与这个热潮，而是成为工具提供者。– wolfejosh@twitter —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>周刊</category>
       </categories>
@@ -35,7 +35,7 @@
   <entry>
     <title><![CDATA[周刊（2019 第 32 周）]]></title>
     <url>%2FWeekly-2019-32%2F</url>
-    <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> #NBA>#资源> #影视> 《》（） #书籍> 《》#每周一句 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 #资源> 数字世界中的纸张 —— 理解 PDFPDF 与其说是一种数字文档，不如说是实体文档在数字世界中的倒影。 > 维基百科的编辑Steven Pruitt 是维基百科最忙碌的编辑，他在 13 年的时候里面，一共完成了近 300 万次编辑，并撰写了 35,000 篇原创条目。维基百科英文版现在有570万条目，其中三分之一都被他编辑过。《时代》杂志将他评为互联网上最有影响力的 25 个人之一。他的维基用户名是 Ser Amantio Di Nicolao。 > 为什么电路板大多是绿色的？ > Facebook 的专利新闻媒体发现，Facebook 为了找出人与人之间的关系，已经申请了一系列令人意想不到的专利。一个专利是，Facebook 如果检测到两部智能手机在同一个时间同一个地方出现，通过比较每部手机的加速度计和陀螺仪读数，可以确定两个人是面对面还是一起散步。这样的话，Facebook 可能就会推荐给你昨晚在酒吧与你交谈的朋友，而不是没有交谈过的人。 另一个专利是通过用户上传的照片元数据连接两个人。如果不同用户上传的图像，看起来像是同一系列的照片，比如文件名是IMG_4605739.jpg 和 IMG_4605742.jpg，或者如果在照片上的相同位置可以检测到镜头划痕或灰尘，那么可能会假设两个人彼此认识，因为他们使用了同一台相机拍照。 永远不要相信公司会「不作恶」 > Seeing Theory概率和统计学入门教程，有网页图形版和免费的 PDF 电子书下载。 #每周一句不要刻意去记住某件事，而要去寻找使其显而易见的解释。– 理查德·费曼 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>周刊</category>
       </categories>
@@ -43,7 +43,7 @@
   <entry>
     <title><![CDATA[周刊（2019 第 31 周）]]></title>
     <url>%2FWeekly-2019-31%2F</url>
-    <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> #NBA>#资源> #影视> 《》（） #书籍> 《》#每周一句 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 关于此博客，我陷入了一个困境：「周刊」这个栏目应该写什么内容和以什么频率更新。早些时候我规定自己每周必须更新一篇周刊，逐渐的我觉得我更新博客的动力在下降，总结下来有以下三点原因：并不是每周都会有事情值得去记录分享；通过观察已经更新的周刊可以看出，我只是在搬移信息，而并没有创造信息，这让我非常沮丧；本博客目前并没有观众，或者，确切的说，观众只有一个。但是如果我不规定自己在什么时候必须更新一篇博客，慢慢的我就会忘记还有博客要更新这件事。这让我想到之前看到过的一篇文章，讲述的内容是关于「一件事『做得好』比较好，还是『做得快』比较好？」。鱼和熊掌不能得兼，你怎么选择：做得好，付出的代价可能是耗时长、成本高；做得快，意味着完成度低、不是精品。作者给出了这样的观点：做得快不仅可以让你在单位时间内完成更多的工作，而且因为你工作得很快，所以你会觉得成本低，从而倾向于做更多。所以想到我不能坚持更新博客或许是因为我把它当作了负担，而又没有获得正面的激励，所以热情渐渐消失。想到这里我决定继续更新博客，周刊将会继续由「新闻」「资源」「影视」「书籍」等栏目组成，更新频率仍然为每周一更。 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>周刊</category>
       </categories>
@@ -75,7 +75,7 @@
   <entry>
     <title><![CDATA[中国痤疮治疗指南（2014修订版）]]></title>
     <url>%2FCure-Acne%2F</url>
-    <content type="text"><![CDATA[生活小技巧 痤疮「痤疮是一种毛囊皮脂腺的慢性炎症性皮肤病，发病率为 70%～87%，对青少年的心理和社交影响超过了哮喘和癫痫。」 在医生口中听到了「痤疮治疗指南」这个关键词，然后自己查找论文果然找到了这篇《中国痤疮治疗指南》。原来好多处方竟然可以直接从论文里面获取~—全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+    <content type="text"><![CDATA[生活小技巧 痤疮「痤疮是一种毛囊皮脂腺的慢性炎症性皮肤病，发病率为 70%～87%，对青少年的心理和社交影响超过了哮喘和癫痫。」 在医生口中听到了「痤疮治疗指南」这个关键词，然后自己查找论文果然找到了这篇《中国痤疮治疗指南》。原来好多处方竟然可以直接从论文里面获取~ —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>技术</category>
       </categories>
