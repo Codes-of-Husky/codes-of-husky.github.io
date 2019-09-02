@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Microsoft_Azure_Discount]]></title>
+    <title><![CDATA[微软 Azure 优惠活动]]></title>
     <url>%2FMicrosoft-Azure-Discount%2F</url>
     <content type="text"><![CDATA[优惠活动来袭~ Microsoft Azure 优惠活动现在创建 Azure 免费帐户，即可享受免费一年的虚拟主机和前 30 天 200 美元体验金。详情见下图。—全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
@@ -62,6 +62,14 @@
     <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> 华为被指参与了朝鲜监控手机网络的开发> 梅赛德斯奔驰和博世即将合力测试自动泊车系统梅赛德斯奔驰的母公司戴姆勒在自动驾驶领域有着多项的计划，包括大货车、巴士、以及高速公路上的自动驾驶系统等，而现在更是将目光放到了车库的自动停车上。 > 《西部世界》第三季新预告片上线在这次放出的新内容中，我们看到以 Dolores 为首的阵营将会进入真正的人类社会，她成为了被追杀的对象，并且会与「小粉」Aaron Paul 扮演的新角色 Caleb 发生联系。除此之外 Maeve 则似乎另起了一条故事线，她出现在了一个看起来像是二战主题的新世界里面。 #荐读> 孩子到底能不能喝茶？作为世界三大饮料之一，茶是中国祖先对世界饮食的一大贡献。在中国，茶已经超越了饮料本身，而成为了中国传统文化的一个部分。在“传统文化进校园”的活动中，许多中小学也引进了茶的教育，让小朋友们从小了解茶、接触茶、体验茶。这也引起了许多家长的关注：小孩子，到底能不能喝茶呢？ > 被“监控”的童年如果说我的父辈是“没什么隐私的一代人”，那么，我这代就可以算是“隐私萌芽”的一代。小学五年级的时候，我斥“巨资”买了一个带锁的笔记本，开始享受一种写下心里话，而无需担心父母窥探的安全感。那时候，很多人都有类似的笔记本。渐渐的，这些人长大了、结婚了，开始为人父母，自我隐私的捍卫者会如何面对孩子的隐私？ > 咖啡因究竟對身體有何影響？咖啡因是存在於植物中的天然驅蟲劑，植物裡面如果含有咖啡因，小昆蟲會因此死亡。後來，人類發現含有咖啡因的植物帶有提神作用，愈來愈喜歡做成飲料。並稱為世界三大飲料的「咖啡、茶、和可可」，都含有咖啡因。碳酸飲料以及能量飲料中也含有咖啡因。 #书籍> 《寂静的春天》 环保主义的圣经？还是毒药？ —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>周刊</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[中国痤疮治疗指南（2014修订版）]]></title>
+    <url>%2FCure-Acne%2F</url>
+    <content type="text"><![CDATA[生活小技巧 痤疮「痤疮是一种毛囊皮脂腺的慢性炎症性皮肤病，发病率为 70%～87%，对青少年的心理和社交影响超过了哮喘和癫痫。」 在医生口中听到了「痤疮治疗指南」这个关键词，然后自己查找论文果然找到了这篇《中国痤疮治疗指南》。原来好多处方竟然可以直接从论文里面获取~—全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>技术</category>
       </categories>
   </entry>
   <entry>
