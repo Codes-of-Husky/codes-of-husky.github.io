@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[周刊（2019 第 38 周）]]></title>
+    <url>%2FWeekly-2019-38%2F</url>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> Mozilla 祭出新的杀器教师节当天，Mozilla 官博祭出一篇文章《Firefox’s Test Pilot Program Returns with Firefox Private Network Beta》，宣布它将恢复 Firefox Test Pilot 计划，允许用户提前尝试新功能。Firefox Test Pilot 程序三年前首次推出，它很快成为许多新功能的孵化场。然而，在今年 1 月，该组织决定关闭它，如今重启。Test Pilot 计划中的第一个新项目便是 Firefox Private Network Beta。 这项产品解决了 Proxy 一个大痛点，之前常用方案是：免费的速度慢、隐私问题、流量限制、不定期换IP;付费的流量限制、隐私问题、费用被坑；自己搭建流量限制、费用问题，用了它，大部分都可以解决了，当然也有它的问题：不能提供系统级 Proxy，局限于 Firefox。 这里有一篇介绍如何试用 Firefox Private Network Beta 的文章。 #篮球> 西班牙队夺得 2019 篮球世界杯冠军在 09 月 15 日，中秋节的最后一天，国际篮联篮球世界杯决赛，西班牙以 95-75 大胜阿根廷，赢得了本届篮球世界杯冠军。 #资源> 历史上哪两件事听起来不在同一个年代，实际上却同时发生的？知乎的一个提问。赞数最多的回答是：「爱因斯坦发表相对论的那一年，中国废除科举。」 > 饿死的狮子王多年来，作为一名摄影记者，我拍摄过失去一切的人、受伤的人、正在死去的人，但从来没有拍过像这只雄伟的动物那样悲伤的东西。他是真正的野兽之王，但是老了以后，可怜地饿死了。 > 时间焦虑写书为时已晚，创业为时已晚，学习新语言为时已晚，这称为时间焦虑。 > 着火了，拿灭火器喷一下就好了么？消防员经过扎实严格的训练，进入火场时全副武装加上空气钢瓶，以团队作战的方式，辅以各种装备器、强大的水力支援及各种车辆搭配，尽管如此，还是可能发生受伤甚至殉职的风险。就像在战场上，再精锐的士兵也不代表不会发生意外，连最专业的消防人员都没有百分之百的把握能从火场全身而退。 我们要明白的时，火灾和其它灾害最大的不同就在于它短短数分钟内就会有快速的情景变化，而在不同的情景下需要有不同的应变方式。 #每周一句Men are not prisoners of fate, but only prisoners of their own minds.—Franklin D. Roosevelt. —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[周刊（中秋节特辑）]]></title>
     <url>%2FWeekly-2019-37%2F</url>
     <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> Apple 特别活动2019 年 9 月 10 日， Apple 在 Steve Jobs Theater 召开了一年一度的秋季发布会，发布的硬件产品包括 iPhone 11、iPhone 11 Pro、iPhone 11 Pro Max、新一代 Apple Watch 以及全新的 10.2 英寸入门款 iPad。快去 apple.cn 观看发布会视频吧~ #篮球中国男篮在篮球世界杯比赛相信大家都已经关注过了，不管结果怎么样，致敬易建联! #资源我的研究生生涯已经过了两年，近期正式进入研三阶段。经过了研一阶段的学习，研二阶段的迷茫，跌跌撞撞的来到了研三。回首过去，发现有挺多的遗憾。就科研方面，真正科研的方法应该是理论和实验相结合，实验用来验证理论，理论根据实验的结果进行更新。但我一开始就选择了一种不是很正确的方法。即先做实验，凑出一个较好的结果后再写文章发论文。以至于到现在，虽然有一个比较好的实验结果，但是理论部分并不知道该如何去填充，即并不知道实验结果为什么而好？只能按照想象中的样子来编写。近期为了补充理论方面的内容，短时间内补习了一些基础理论方面的知识，发现自己真的是很弱。趁着论文草稿完成的空挡，在这里分享一下近期的一些思考以及看到的比较精彩的文章和教程。 > 我们需要怎样的数学教育翻开数学课本，总是成套的理论体系，先定义再证明，说得头头是道。可是，这些东西都是怎么来的呢？在得出这些东西的过程中，数学家们走了哪些弯路呢？课本上只字不提。课本里从来都只讲什么是对的，却从来不讲什么是错的。数学考试只会让你证明一个结论，从不会让你推翻一个结论。 > 如何理解线性代数数学就是人类在解释这个世界是怎样运行的时候，人为发明的一种工具，有了这种工具，我们可以不用那么含糊其辞。 > Better Explained数学本来可以讲得更直观，更通俗。 最后，祝大家中秋节快乐！ #每周一句If you can’t explain it simply, you don’t understand it well enough.—Albert Einstein —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
@@ -21,7 +29,7 @@
     <url>%2FProbability-Branches%2F</url>
     <content type="text"><![CDATA[本文给出了研究概率论的两个学派。 概率论的两个学派：频率学派和贝叶斯学派频率学派：通过观察数据来确定背后的概率分布。统计学中一个主要的问题是估计参数。我们用一个取值为样本的函数来估计我们感兴趣的参数，并称这个函数为估计量。这个估计量有良好的性质：无偏性和相合性。 点估计以一个估计圆周率 $\pi$ 的例子来说明。圆周率 $\pi$ 可以由圆与其外切正方形的面积比来表示： $$S_{circle}=\pi r^{2}$$$$S_{square}4 r^{2}$$ 则有 $$\pi = 4 \frac{S_{circle}}{S_{square}}$$ 先我们均匀地在正方形上随机生成 $n$ 个样本，用 $m$ 来表示落入这个正方形内切圆的样本个数。定义估计量 $\hat{\pi}$ 如下： $$\hat{\pi} = 4\frac{m}{n}$$ 点估计虽然给出了未知参数的估计值，但是未给出估计值的可靠程度，即估计值偏离未知参数真实值的程度。 区间估计以知乎上的一个讲解 $95\%$ 置信区间例子来讲解区间估计 一般我们用中括号 $[a,b]$ 表示样本估计总体平均值误差范围的区间。$a、b$ 的具体数值取决于你对于「该区间包含总体均值」这一结果的可信程度，因此 $[a,b]$ 被称为置信区间。 现在我们要统计人类的平均身高，这个数据是真实存在的，只是我们不知道。在上帝视角下，假设人类的身高分布服从如下的正态分布 $$X \sim N(\mu, \sigma ^2)$$ 作为愚蠢的人类，我们只能在人群中抽样统计。抽样的样本大小为 $n$，对应的样本值为 $x_{n}$，则样本均值为 $$M=\frac{x_{1} + x_{2} + \dots + x_{n}}{n}$$ 通过不断的采样，根据中心极限定理和大数定理，样本的均值 $M$ 服从正态分布 $$M \sim N(\mu, \frac{\sigma ^ {2}}{n})$$ 我们可以算出以 $\mu$ 为中心，面积为 $0.95$ 的区间，即 $$P(\mu - 1.96 \frac{\sigma}{\sqrt{n}} \le M \le \mu + 1.96 \frac{\sigma}{\sqrt{n}}) = 0.95$$ 也就是， $M$ 有 $95\%$ 的几率落入此区间 自助法（Bootstrap）在统计学中，自助法（Bootstrap Method，Bootstrapping，或自助抽樣法）是一种从给定训练集中有放回的均匀抽样，也就是说，每当选中一个样本，它等可能地被再次选中并被再次添加到训练集中。 贝叶斯学派：用数据来更新特定假设的概率。贝叶斯公式 $$P(B|A) = \frac{P(A|B)P(B)}{P(A)}$$ —全文完— 参考文献 document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
-        <category>知识</category>
+        <category>理论</category>
         <category>概率论</category>
       </categories>
   </entry>
@@ -30,7 +38,7 @@
     <url>%2FIntroduce-Probability%2F</url>
     <content type="text"><![CDATA[本博客给出了概率论里一些名词的定义。 名词解释随机事件随机事件发生的概率在 $0$ 到 $1$ 之间。 随机变量随机变量是一个函数（映射），其将一个实数与概率空间中的一个结果关联在一起。随机变量不是随机变化的量。常见的随机变量有两种类型：离散型随机变量和连续型随机变量。 一个离散型随机变量可能的取值范围只有有限个或可列个值。 离散型随机变量值所代表的事件发生的概率是概率密度函数（Probability Density Function ）在该处的取值 $P(X=x) = f(x)$ 连续型随机变量可能取值的范围是一个无限不可数集合（如全体实数)。连续型随机变量的定义是：设 $X$ 为随机变量，存在非负函数 $f(x)$ 使得： $$P(a \le X \le b) = \int_{a}^{b}f(x)\mathrm{d}x$$ 期望一个随机变量的期望刻画的是这个随机变量的概率分布的「中心」。 $$\mathbb{E}[X] = \sum_{x \in \mathcal{X}} xP(x)$$ 方差方差衡量一个随机变量的概率分布的分散程度 $$\mathbb{Var}(X) = \mathbb{E}[(X-\mathbb{E}[X])^2]$$ 集合这里有一些常用的集合等式 古典概率古典概率的本质就是数数，排列组合与古典概率论关系密切。 排列问题是指从装有 $N$ 个不同物体的容器中取出 $M$ 个物体，并按照取出的顺序排序，求有多少种取出方式。 $$P^{M}_{N} = \frac{N!}{(N-M)!}$$ 组合问题是指从装有 $N$ 个不同物体的容器中取出 $M$ 个物体，对取出的物体不排序，求有多少种取出方式。 $$C^{M}_{N} = \frac{N!}{M!(N-M)!}$$ 条件概率指在事件 $A$ 发生的条件下事件 $B$ 发生的概率 $$P(B|A) = \frac{P(AB)}{P(A)}$$ 中心极限定理中心极限定理告诉我们，对于一个（性质比较好的）分布，如果我们有足够大的独立同分布的样本，其样本均值会（近似地）呈正态分布。样本数量越大，其分布与正态越接近。 —全文完— 参考文献 看见统计 document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
-        <category>知识</category>
+        <category>理论</category>
         <category>概率论</category>
       </categories>
   </entry>
@@ -111,7 +119,7 @@
     <url>%2FCure-Acne%2F</url>
     <content type="text"><![CDATA[生活小技巧 痤疮「痤疮是一种毛囊皮脂腺的慢性炎症性皮肤病，发病率为 70%～87%，对青少年的心理和社交影响超过了哮喘和癫痫。」 在医生口中听到了「痤疮治疗指南」这个关键词，然后自己查找论文果然找到了这篇《中国痤疮治疗指南》。原来好多处方竟然可以直接从论文里面获取~ —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
-        <category>技术</category>
+        <category>理论</category>
       </categories>
   </entry>
   <entry>
