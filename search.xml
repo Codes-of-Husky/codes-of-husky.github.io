@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Oracle Cloud 优惠活动]]></title>
+    <url>%2FOracle-Cloud-Discount%2F</url>
+    <content type="text"><![CDATA[优惠活动来袭~ Oracle Cloud 优惠活动现在创建 Oracle Cloud 免费帐户，即可享受账户生命周期内免费的两个虚拟主机和前 30 天 300 美元体验金，比 Microsoft Azure 更优惠。详情见下图。 永久免费的服务所有 Oracle Cloud Infrastructure 帐户（无论是免费还是付费）都拥有一组在帐户生命周期内免费的资源。这些资源在控制台中显示 Always Free (始终免费)标签。 数据库您选择的自治事务处理或自治数据仓库。总共 2 个数据库，每个数据库有 1 个 OPCU 和 20 GB 存储空间。 计算两个具有 1/8 OCPU 和 1 GB 内存的虚拟机。 存储两个 Block Volumes 实例，总计 100 GB。10 GB 对象存储。10 GB 存档存储。 额外服务负载均衡器，1 个实例，10 Mbps 带宽。监测，5 亿摄取数据点，10 亿个检索数据点。通知，每月 100 万个交付选项，每月发送 1,000 封电子邮件。出站数据传输，每月 10 TB。 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>优惠信息</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[周刊（中秋节特辑）]]></title>
     <url>%2FWeekly-2019-37%2F</url>
     <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻> Apple 特别活动2019 年 9 月 10 日， Apple 在 Steve Jobs Theater 召开了一年一度的秋季发布会，发布的硬件产品包括 iPhone 11、iPhone 11 Pro、iPhone 11 Pro Max、新一代 Apple Watch 以及全新的 10.2 英寸入门款 iPad。快去 apple.cn 观看发布会视频吧~ #篮球中国男篮在篮球世界杯比赛相信大家都已经关注过了，不管结果怎么样，致敬易建联! #资源我的研究生生涯已经过了两年，近期正式进入研三阶段。经过了研一阶段的学习，研二阶段的迷茫，跌跌撞撞的来到了研三。回首过去，发现有挺多的遗憾。就科研方面，真正科研的方法应该是理论和实验相结合，实验用来验证理论，理论根据实验的结果进行更新。但我一开始就选择了一种不是很正确的方法。即先做实验，凑出一个较好的结果后再写文章发论文。以至于到现在，虽然有一个比较好的实验结果，但是理论部分并不知道该如何去填充，即并不知道实验结果为什么而好？只能按照想象中的样子来编写。近期为了补充理论方面的内容，短时间内补习了一些基础理论方面的知识，发现自己真的是很弱。趁着论文草稿完成的空挡，在这里分享一下近期的一些思考以及看到的比较精彩的文章和教程。 > 我们需要怎样的数学教育翻开数学课本，总是成套的理论体系，先定义再证明，说得头头是道。可是，这些东西都是怎么来的呢？在得出这些东西的过程中，数学家们走了哪些弯路呢？课本上只字不提。课本里从来都只讲什么是对的，却从来不讲什么是错的。数学考试只会让你证明一个结论，从不会让你推翻一个结论。 > 如何理解线性代数数学就是人类在解释这个世界是怎样运行的时候，人为发明的一种工具，有了这种工具，我们可以不用那么含糊其辞。 > Better Explained数学本来可以讲得更直观，更通俗。 最后，祝大家中秋节快乐！ #每周一句If you can’t explain it simply, you don’t understand it well enough.—Albert Einstein —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
