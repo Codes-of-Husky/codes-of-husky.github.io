@@ -15,7 +15,7 @@
 
 
 <html class="theme-next muse use-motion" lang="zh-CN">
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -484,10 +484,13 @@
       
 
       
-        <p><img src="https://raw.githubusercontent.com/is-husky/blog-imgs/master/Intro_Prop/Intro_Prop.png" alt=" "><br><a id="more"></a></p>
+        <p><img src="https://raw.githubusercontent.com/is-husky/blog-imgs/master/Intro_Prop/Intro_Prop.png" alt=" "></p>
+<a id="more"></a>
+
 <div class="note info">
             <p>本文给出了研究概率论的两个学派。</p>
           </div>
+
 <h1 id="概率论的两个学派：频率学派和贝叶斯学派"><a href="#概率论的两个学派：频率学派和贝叶斯学派" class="headerlink" title="概率论的两个学派：频率学派和贝叶斯学派"></a>概率论的两个学派：频率学派和贝叶斯学派</h1><h2 id="频率学派：通过观察数据来确定背后的概率分布。"><a href="#频率学派：通过观察数据来确定背后的概率分布。" class="headerlink" title="频率学派：通过观察数据来确定背后的概率分布。"></a>频率学派：通过观察数据来确定背后的概率分布。</h2><p>统计学中一个主要的问题是估计参数。我们用一个取值为样本的函数来估计我们感兴趣的参数，并称这个函数为估计量。这个估计量有良好的性质：无偏性和相合性。</p>
 <h3 id="点估计"><a href="#点估计" class="headerlink" title="点估计"></a>点估计</h3><p>以一个估计圆周率 $\pi$ 的例子来说明。圆周率 $\pi$ 可以由圆与其外切正方形的面积比来表示：</p>
 <blockquote>
@@ -502,7 +505,7 @@
 <p>$$\hat{\pi} = 4\frac{m}{n}$$</p>
 </blockquote>
 <p>点估计虽然给出了未知参数的估计值，但是未给出估计值的可靠程度，即估计值偏离未知参数真实值的程度。 </p>
-<h3 id="区间估计"><a href="#区间估计" class="headerlink" title="区间估计"></a>区间估计</h3><p><em>以<a href="https://www.zhihu.com/question/26419030" target="_blank" rel="noopener">知乎</a>上的一个讲解 $95\%$ 置信区间例子来讲解区间估计</em></p>
+<h3 id="区间估计"><a href="#区间估计" class="headerlink" title="区间估计"></a>区间估计</h3><p><em>以<a href="https://www.zhihu.com/question/26419030" target="_blank" rel="noopener">知乎</a>上的一个讲解 $95%$ 置信区间例子来讲解区间估计</em></p>
 <p>一般我们用中括号 $[a,b]$ 表示样本估计总体平均值误差范围的区间。$a、b$ 的具体数值取决于你对于「该区间包含总体均值」这一结果的可信程度，因此 $[a,b]$ 被称为置信区间。 </p>
 <p>现在我们要统计人类的平均身高，这个数据是真实存在的，只是我们不知道。在上帝视角下，假设人类的身高分布服从如下的正态分布</p>
 <blockquote>
@@ -520,7 +523,7 @@
 <blockquote>
 <p>$$P(\mu - 1.96 \frac{\sigma}{\sqrt{n}} \le M \le \mu + 1.96 \frac{\sigma}{\sqrt{n}}) = 0.95$$</p>
 </blockquote>
-<p>也就是， $M$ 有 $95\%$ 的几率落入此区间</p>
+<p>也就是， $M$ 有 $95%$ 的几率落入此区间</p>
 <h3 id="自助法（Bootstrap）"><a href="#自助法（Bootstrap）" class="headerlink" title="自助法（Bootstrap）"></a>自助法（Bootstrap）</h3><p>在统计学中，自助法（Bootstrap Method，Bootstrapping，或自助抽樣法）是一种从给定训练集中有放回的均匀抽样，也就是说，每当选中一个样本，它等可能地被再次选中并被再次添加到训练集中。</p>
 <h2 id="贝叶斯学派：用数据来更新特定假设的概率。"><a href="#贝叶斯学派：用数据来更新特定假设的概率。" class="headerlink" title="贝叶斯学派：用数据来更新特定假设的概率。"></a>贝叶斯学派：用数据来更新特定假设的概率。</h2><h3 id="贝叶斯公式"><a href="#贝叶斯公式" class="headerlink" title="贝叶斯公式"></a>贝叶斯公式</h3><blockquote>
 <p>$$P(B|A) = \frac{P(A|B)P(B)}{P(A)}$$</p>
