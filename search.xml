@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Weekly-2019-42]]></title>
+    <url>%2FWeekly-2019-42%2F</url>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻&gt; Python 3.8 发布Python 语言项目正式释出了新的大更新版本 v3.8，下一个版本 3.9 已在开发之中。 &gt; GitLab 要求雇员在工作场所不要讨论政治GitLab 联合创始人兼 CEO Sid Sijbrandij 最近修改了公司手册，两周前将这一变更合并到主线。新的手册声明，GitLab 承诺与价值观不兼容的客户做生意，因为「效率是 GitLab 的一个价值观，而审查客户耗时又分心」。 &gt; Dyson 终止了电动汽车项目著名真空吸尘器制造商 Dyson 在 2017 年宣布斥巨资进军电动汽车，它准备向该项目投资多达 32 亿美元，计划在 2021 年推出产品。但现在 Dyson 取消了电动汽车项目。 #每周一句真正的无知不是知识的缺乏，而是拒绝获取知识。 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[周刊（2019 第 41 周）]]></title>
+    <url>%2FWeekly-2019-41%2F</url>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 #重阳节本周 10 月 07 日，农历九月九日，是中华民族的传统节日：重阳节。庆祝重阳节的活动多彩浪漫，一般包括出游赏景、登高远眺、观赏菊花、遍插茱萸、吃重阳糕、饮菊花酒等活动。 # 二十四节气之寒露本周 10 月 08 日是二十四节气中的第十七个节气，秋季的第五个节气：寒露。《月令七十二候集解》中说：“九月节，露气寒冷，将凝结也。”此时气温较“白露”时更低，露水更多，原先地面上洁白晶莹的露水即将凝结成霜，寒意愈盛，故名。寒露也代表深秋的到来，气候由凉爽逐渐转入寒冷下雪。寒露三侯：「一侯鸿雁来宾、二侯雀入水为蛤、三侯菊有黄华」 #新闻&gt; 蚂蚁金服数据库性能超过了甲骨文？ 多家媒体报道了蚂蚁金服的开源关系数据库 OceanBase v2.2 在行业标准的联机事务处理性能测试 TPC-C 中的成绩击败了甲骨文的数据库。事实是如此简单的么？ &gt; 三名物理学家因宇宙学发现获诺贝尔物理学奖瑞典皇家科学院宣布了三名 2019 年诺贝尔物理学奖得主：普林斯顿大学 James Peebles 教授，以表彰他「在宇宙学理论方面的发现」，瑞士日内瓦大学的 Michel Mayor 教授和 Didier Queloz 教授，以表彰他们「发现一颗围绕类太阳恒星运行的系外行星」。瑞典皇家科学院称，他们的发现有助于更好的理解宇宙的演化和地球在宇宙中的位置。 &gt; 三名科学家因氧气感知机制而获得诺贝尔医学奖2019 年诺贝尔生理学或医学奖授予了哈佛医学院教授 William G. Kaelin, Jr.、牛津大学教授 Peter J. Ratcliffe 和约翰霍普金斯大学医学院教授 Gregg L. Semenza，以表彰他们在细胞感知和适应氧气变化机制中的发现。 &gt; 中国新手机入网引入人脸识别工信部上月底发布了通知《关于进一步做好电话用户实名登记管理有关工作的通知》，从 12 月 1 日起对新手机入网引入人脸识别。 #影视&gt; 《Primal 原始战纪》（2019） 一集只有 20 多分钟，制作精良，故事引人入胜。 #书籍&gt; 《上帝掷骰子吗：量子物理史话》 再科普一下。学海无涯，学无止境。 #每周一句在这个世界上我只确定一件事。那就是人确定的事情越少越好。 –毛姆 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[周刊（2019 第 39 周）]]></title>
+    <url>%2FWeekly-2019-39%2F</url>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 下周为国庆节，停刊一周。 #二十四节气之秋分本周 09 月 23 号是秋分，秋分是二十四节气中的第十六个节气。秋分时太阳到达黄经 180°（秋分点），几乎直射地球赤道，全球各地昼夜等长。秋分过后，太阳直射点继续由赤道向南半球推移，北半球各地开始昼短夜长，即一天之内白昼开始短于黑夜；南半球相反。故秋分也称降分。而在南北两极，秋分这一天，太阳整日都在地平线上。此后，随着太阳直射点的继续南移，北极附近开始为期 6 个月的极夜，范围逐渐扩大再缩小；南极附近开始为期 6 个月的极昼，范围逐渐扩大再缩小。2018 年 06 月 21 日，国务院关于同意设立「中国农民丰收节」的批复发布，同意自 2018 年起，将每年农历秋分设立为「中国农民丰收节」，今年是第二个中国农民丰收节。我国古代将秋分分为三候：「一候雷始收声；二候蛰虫坯户；三候水始涸」 #建国七十周年阅兵今年是中华人民共和国建国七十周年，国庆节期间将在天安门广场举办盛大的国庆活动，包括阅兵和民众游行。 #资源&gt; 什么是 Docker？ 如何使用？讲解 Docker 是什么，以及如何使用 Docker 构建分布式程序，并部署到云。 &gt; Kubernetes academy针对初学者的免费 Kubernetes 视频课程，帮助学习者理解 Kubernetes 的基本概念。 &gt; Dive into Deep Learning深度学习的互动式在线教程。 #影视&gt; 《包豪斯时代 Bauhaus - A New Era》（2019） ZDF 电视台纪念包豪斯成立 100 周年的献礼之作，由Anna Maria Mühe和August Diehl领衔主演。剧作将目光投向了包豪斯在魏玛成立之初的那段时光，以Walter Gropius与女学生Dörte Helm之间的情感纠葛为切入点，展现了包豪斯立校之初风雨飘摇的那段历史，以及魏玛时期的德国风貌。 #书籍&gt; 《时间的形状：相对论史话》 科普一下。 #每周一句喜爱孤独者，非神即兽。 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[周刊（2019 第 38 周）]]></title>
     <url>%2FWeekly-2019-38%2F</url>
     <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻&gt; Mozilla 祭出新的杀器教师节当天，Mozilla 官博祭出一篇文章《Firefox’s Test Pilot Program Returns with Firefox Private Network Beta》，宣布它将恢复 Firefox Test Pilot 计划，允许用户提前尝试新功能。Firefox Test Pilot 程序三年前首次推出，它很快成为许多新功能的孵化场。然而，在今年 1 月，该组织决定关闭它，如今重启。Test Pilot 计划中的第一个新项目便是 Firefox Private Network Beta。 这项产品解决了 Proxy 一个大痛点，之前常用方案是：免费的速度慢、隐私问题、流量限制、不定期换IP;付费的流量限制、隐私问题、费用被坑；自己搭建流量限制、费用问题，用了它，大部分都可以解决了，当然也有它的问题：不能提供系统级 Proxy，局限于 Firefox。 这里有一篇介绍如何试用 Firefox Private Network Beta 的文章。 #篮球&gt; 西班牙队夺得 2019 篮球世界杯冠军在 09 月 15 日，中秋节的最后一天，国际篮联篮球世界杯决赛，西班牙以 95-75 大胜阿根廷，赢得了本届篮球世界杯冠军。 #资源&gt; Google 发布内部 Code Review 规范Code Review 在产品开发中具有举足轻重的作用，规范的代码更可以减少 Bug 并且易于维护，Google 先在 Github上公开了内部的 Cide Review 规范。 &gt; 历史上哪两件事听起来不在同一个年代，实际上却同时发生的？知乎的一个提问。赞数最多的回答是：「爱因斯坦发表相对论的那一年，中国废除科举。」 &gt; 饿死的狮子王多年来，作为一名摄影记者，我拍摄过失去一切的人、受伤的人、正在死去的人，但从来没有拍过像这只雄伟的动物那样悲伤的东西。他是真正的野兽之王，但是老了以后，可怜地饿死了。 &gt; 时间焦虑写书为时已晚，创业为时已晚，学习新语言为时已晚，这称为时间焦虑。 &gt; 着火了，拿灭火器喷一下就好了么？消防员经过扎实严格的训练，进入火场时全副武装加上空气钢瓶，以团队作战的方式，辅以各种装备器、强大的水力支援及各种车辆搭配，尽管如此，还是可能发生受伤甚至殉职的风险。就像在战场上，再精锐的士兵也不代表不会发生意外，连最专业的消防人员都没有百分之百的把握能从火场全身而退。 我们要明白的时，火灾和其它灾害最大的不同就在于它短短数分钟内就会有快速的情景变化，而在不同的情景下需要有不同的应变方式。 #每周一句Men are not prisoners of fate, but only prisoners of their own minds.—Franklin D. Roosevelt. —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
