@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ehusky.github.io/"/>
-  <updated>2019-11-25T11:45:29.614Z</updated>
+  <updated>2019-12-04T12:07:55.976Z</updated>
   <id>https://ehusky.github.io/</id>
   
   <author>
@@ -17,13 +17,133 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>周刊（2019 第 49 周）</title>
+    <link href="https://ehusky.github.io/Weekly-2019-49/"/>
+    <id>https://ehusky.github.io/Weekly-2019-49/</id>
+    <published>2019-12-06T16:00:00.000Z</published>
+    <updated>2019-12-04T12:07:55.976Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-49/Weekly-2019-49.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="新闻"><a href="#新闻" class="headerlink" title="#新闻"></a>#新闻</h2><h3 id="gt-Fedora-31-释出"><a href="#gt-Fedora-31-释出" class="headerlink" title="> Fedora 31 释出"></a>&gt; <a href="https://docs.fedoraproject.org/en-US/fedora/f31/release-notes/" target="_blank" rel="noopener">Fedora 31 释出</a></h3><p>Fedora 31 正式释出。Fedora 31 的新变化包括：启动个人工作空间容器的工具 Fedora Toolbox 可用于开发和试验，GNOME 3.34，支持 cgroups v2，RPM 压缩算法切换到 ztsd，Glibc 2.30，NodeJS 12，支持替代架构 ARM AArch64、Power 和 S390x，停止支持 32 位 i686 内核，因为 Python 2 即将终止支持 Python 将只代表 Python 3，等等</p><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-Linus-Torvalds-认为自己不再是一名程序员"><a href="#gt-Linus-Torvalds-认为自己不再是一名程序员" class="headerlink" title="> Linus Torvalds 认为自己不再是一名程序员"></a>&gt; <a href="https://www.zdnet.com/article/linus-torvalds-im-not-a-programmer-anymore/" target="_blank" rel="noopener">Linus Torvalds 认为自己不再是一名程序员</a></h3><p>在开源欧洲峰会上，Linux 作者 Linus Torvalds 在与 VMware 首席开源官 Dirk Hohndel 对话时表示，他不再认为自己是一名程序员了。Torvalds 解释说，”我不再懂写代码了，我写的大部分代码都是在邮件里。有人发了一个补丁，我就用伪码回复。我已经习惯编辑补丁，有时候会在没有任何测试的情况下将编辑过的补丁发送出去。字面上讲我只在邮件里写代码，说我认为应该这怎么做。这就是我所做的，我不再是程序员了。”Torvalds 说他的工作就是阅读和回复大量邮件，然后在最后说“不”，必须有个人说不，这会促使开发者写出更好的代码。换句话说，Torvalds 现在是一名程序经理和维护者，不再是开发者。他说维护者需要对开发者递交的代码及时回复，这会让开发者觉得他们的工作至少能得到反馈。 </p><p>同时，Linus Torvalds 在开源欧洲峰会上称，<a href="https://www.techrepublic.com/article/linus-torvalds-git-proved-i-could-be-more-than-a-one-hit-wonder/" target="_blank" rel="noopener">Git 证明他不是只能成功一次</a>。他说人人都会怀疑自我，Linux 只是 UNIX 的重新实现，但 Git 给出了另一个证据。Torvalds 并没有将 Git 的成功全都归功于己，他只维护了 Git 半年时间，它的成功应该归功于其他人，而他所做的是设计。Git 完全改变了软件的开发方式，它之前的版本控制系统都没能像它那样促进合作。 </p><h2 id="书籍"><a href="#书籍" class="headerlink" title="#书籍"></a>#书籍</h2><h3 id="gt-《老人与海》"><a href="#gt-《老人与海》" class="headerlink" title="> 《老人与海》"></a>&gt; 《老人与海》</h3><p>这本书名声在外，可是我自己却一遍都没有读过。近期花了两天的时间拜读了一下余秋雨的译本。作者对人物以及背后的精神的刻画着实令人印象深刻。</p><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-49/OAS.jpg" class="full-image" alt="书籍封面" title="《老人与海》" style="max-width: none; width: 11em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>任何人均有其价值</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      每周见闻📅
+    
+    </summary>
+    
+      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>现在的孩子是怎么了？是抗压能力弱？还是压力大？</title>
+    <link href="https://ehusky.github.io/Why-we-suffer/"/>
+    <id>https://ehusky.github.io/Why-we-suffer/</id>
+    <published>2019-12-03T16:00:00.000Z</published>
+    <updated>2019-12-04T12:03:52.398Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Why-we-suffer/Why-we-suffer.jpg" alt="博客"></p><a id="more"></a><div class="note info">                      </div><h2 id="源起"><a href="#源起" class="headerlink" title="源起"></a>源起</h2><p>今天闲来无事浏览了一下知乎的<a href="https://www.zhihu.com/explore" target="_blank" rel="noopener">「发现」</a>页面，看到了一个<a href="https://www.zhihu.com/question/351872270/answer/911748530" target="_blank" rel="noopener">「提问」</a>，提问的大致内容是提问者偶然发现如今有越来越多的孩子因为压力大而选择轻生。因此提问者想知道：「这么多的轻生悲剧发生，现在的孩子怎么了？是他们的抗压能力弱？还是真的压力太大？」</p><h2 id="回答"><a href="#回答" class="headerlink" title="回答"></a>回答</h2><p>在我看到这个问题的时候其实已经有很多人回答了这个问题，因此我点开了排名靠前的一个问答。问答者是这样解释的。</p><p>答者首先引用了自己前段时间看到的一个新闻，新闻的内容大致可以归纳为「一项调查显示：在过去5年中，有超过500名华裔学生在美国自杀。结果还显示，越是优秀的学生，越是优秀的大学，学生自杀的概率越高。」然后答者描述了一个自己称为「残酷真相」的现象：我们这个社会绝大多数人一辈子被社会规则束缚，因此产生了很多不满。不过这些不满的人虽然不满，但是他们并没有丧失希望。因为他们不了解社会如何运作，所以他们天真的认为，他们的困境是可以解除的。这些人其实并没有压力太大或者抗压能力太弱甚至抑郁的倾向，因为他们「很傻很天真」，对未来总有期待。反过来，一部分<strong>准精英</strong>，或者一部分<strong>接触到精英阶层却无法成为精英的人</strong>，他们是这个社会最焦虑，压力最大，最抑郁的一批人。因为他们过人的学识或者天分，他们得以接触到精英阶层，而又因为他们自身的出身又决定了他们非常了解普通民众阶层。他们可以说是对社会规则理解的最透彻的一批人。他们比任何人都理解这个社会最残酷的真相，也即是：「<strong>赢家通吃，输者全无</strong>」。所以，他们必须走好每一步路，越往上走，越是如此，许多时候，丧失一个机会就意味着一辈子再无其他机会。在「很傻很天真」的人眼里，胜败乃兵家常事，还有一辈子的时间，总有机会。但是对于这些人而言，他们很透彻和清晰的认识到，输就是一辈子的事，机会不会再有第二次。</p><p>接着答者给出了一张图，图很抽象且直观的表现了个人的投入与个人社会阶层的关系。图的内容描述的大致就是随着个人投入的增加，其社会层级也会变化。在外人看起来，人的层级似乎是线性的，如果我们达不到位置 C，我们可以在位置 B 。但真正熟知社会规则的人，在各个行业他们看到的情况却不是线性的。可以这么说，绝大多数的焦虑，不安，惶恐，抑郁都源自于这种非线性的结构。也即是要么 C 要么不足 B，即 A 点。这张图里我们可以清晰的看到，越往上走，个人投入的越多，而原地不动的时间更长。在图的里面也标名了经常发生自杀的区域 E ，在这个区域里，个人的投入已经快到 D 了但是实际上他们还是被死死的按在 C 的社会阶层。而且由于某些原因，他们可能无法突破跳跃到 D 上，这辈子只能呆在 C 的位置上，因此这个阶段的人会有巨大的压力。</p><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Why-we-suffer/life-line.png" class="full-image" alt="层级曲线" title="《人的层级曲线》" style="max-width: none; width: 20em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><p>接着，答者解释了年长一代的人往往觉得自己抗压能力比较强，其实并非如此。年长一代所谓抗压能力强是因为：</p><ol><li>年长者成长环境里信息还比较闭塞，其往往不知道还有更高层级的存在。</li><li>年长一代的工具比较少，不大可能通过一系列手段把自己放在提高层级的那个窗口。做不到就不考虑也就没烦恼。</li><li>建国初期，乃至改革开放初期，我们的社会总体还是线性的状态。</li></ol><p>随着经济增长开始放缓，社会阶层流动速度放缓，线性层级的社会竞争规则逐渐被阶梯性竞争规则所取代。同时随着咨询的发达，现在的小孩可以说是很早就隐隐约约地看到了社会阶梯层级的竞争模式。而且越是优秀的小孩，很可能越早慧，越是对此有着更加深刻的理解。理解这种竞争规则的好处是能够早早地就比同龄人投入更多以获得竞争优势，而理解这种竞争规则的坏处是，早早就充分认识到了社会竞争的残酷性，对竞争失败所导致的后果（比如一切付出都白费了，以及自此再无机会的境况）他们更加清醒。因此他们所承担的压力也比一般人更大。</p><p>答者在解释了现在孩子的压力确实比较大之后，引出了现在社会上存在的一些问题，最后答者给出了他认为的解决之道：「虚无主义的克星无非两个，一个是琐碎而真实的人间烟火；一个是千年传承的价值道德」。</p><h2 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h2><p>在看上述的回答的过程中，特别是看到答者给出的「层级曲线图」的时候，心中不免生出一阵喜悦，「我认识这个观点，并且认同它」。我是在课堂上第一次听到这个观点的。老师是在讲解<a href="https://en.wikipedia.org/wiki/Poisson_point_process" target="_blank" rel="noopener">「泊松过程」</a>的时候提出的这个观点。老师是这样引入的，泊松过程是随机过程的一个经典模型。其随着时间的推进，事件在不断的发生。在两个互斥（不重叠）的区间内所发生的事件的数目是互相独立的随机变量，并且在区间 $[t, t + \tau ] $内发生的事件的数目的机率分布服从参数为 $\lambda \tau$ 的泊松分布，其中$\lambda $ 是一个正数，是固定的参数，通常称为抵达率或强度。这和我们的人生有着相似的道理。</p><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Why-we-suffer/poisson.png" class="full-image" alt="泊松分布" title="《泊松过程和人生有着相似的道理》" style="max-width: none; width: 20em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><p>对于大多数人来说，这些事件指的往往就是出生、中考、高考、找工作、结婚等。只有在这些事件发生的时候，我们的人生才会迈向下一步，人生才会有一个提高。而在这些事件发生的间歇，我们处在一个准备阶段。在泊松过程中，每次事件的发生都会使系统发生改变。想让最终系统的改变最大，就需要增加事件发生的频率、增加事件对系统的影响程度。我们的人生也一样，想要去往更高的社会层级，就需要增加这些人生事件发生的频率、增加这些事件对我们的影响。</p><p>当然，在这些事件发生的间隔，我们依然在努力着，只是结果没有表现出来。接着，老师告诉我们，你们在人生中可能会遇到很多困难，你们可能做了很多实验，付出了很多努力，但是没有结果。没关系，不需要为此而难过，你们只需要等待一件事情的发生，那次事件的发生将会给你们答案。</p><p>老师的这个观点我一直留在心中，我常常以此激励自己。直到今天，看到答者的这个回答，我决定将它记录下来分享给大家。<br>—<strong>全文完</strong>—</p><hr><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ehusky/blog-imgs/master/Why-we-suffer/Why-we-suffer.jpg&quot; alt=&quot;博客&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="— 思考" scheme="https://ehusky.github.io/categories/%E2%80%94-%E6%80%9D%E8%80%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>周刊（2019 第 48 周）</title>
+    <link href="https://ehusky.github.io/Weekly-2019-48/"/>
+    <id>https://ehusky.github.io/Weekly-2019-48/</id>
+    <published>2019-11-26T01:35:44.000Z</published>
+    <updated>2019-12-04T12:08:33.806Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-48/Weekly-2019-48.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="新闻"><a href="#新闻" class="headerlink" title="#新闻"></a>#新闻</h2><h3 id="gt-亚马逊官宣在拼多多开设临时店铺-暂时没有深度合作"><a href="#gt-亚马逊官宣在拼多多开设临时店铺-暂时没有深度合作" class="headerlink" title="> 亚马逊官宣在拼多多开设临时店铺 暂时没有深度合作"></a>&gt; <a href="https://tech.ifeng.com/c/7rswKL4WQb2" target="_blank" rel="noopener">亚马逊官宣在拼多多开设临时店铺 暂时没有深度合作</a></h3><p>凤凰网科技讯 北京时间11月25日消息，亚马逊公司今天宣布，将在中国电商平台拼多多开设一家“快闪店”(临时店铺)，运营到今年 12 月底，提供大约 1000 种精选海外商品。</p><h3 id="gt-欧洲-IPv4-地址用光"><a href="#gt-欧洲-IPv4-地址用光" class="headerlink" title="> 欧洲 IPv4 地址用光"></a>&gt; <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/the-ripe-ncc-has-run-out-of-ipv4-addresses" target="_blank" rel="noopener">欧洲 IPv4 地址用光</a></h3><p>11 月 25 日，欧洲 IP 地址注册机构 RIPE 宣布，欧洲的 IPv4 地址全部分配光了，一个也没剩下，从此没有新的 IP 地址可以分配。此后，该组织要分配 IPv4 地址，只有等待破产或关闭的团体交还已用的地址，才能再分配。解决全球 IP 地址不足的根本办法，是尽快向 IPv6 过渡。</p><h3 id="gt-特斯拉发布电动卡车"><a href="#gt-特斯拉发布电动卡车" class="headerlink" title="> 特斯拉发布电动卡车"></a>&gt; <a href="https://www.tesla.com/cybertruck" target="_blank" rel="noopener">特斯拉发布电动卡车</a></h3><p>特斯拉发布电动皮卡，最低售价 4 万美元。由于外观完全采用直线条，这车看着有点像装甲车，而不像小卡车，车身后部的车斗是隐藏的。确实像车名 cybertruck 所提示的，有朋克的感觉。目前，特斯拉的产品线越来越全了，已经有了轿车、卡车、皮卡，下一个会发布新的跑车。</p><h3 id="gt-Google-专文介绍-Pixel-4-天文摄影模式的秘密"><a href="#gt-Google-专文介绍-Pixel-4-天文摄影模式的秘密" class="headerlink" title=">Google 专文介绍 Pixel 4 天文摄影模式的秘密"></a>&gt;<a href="https://sspai.com/post/57605" target="_blank" rel="noopener">Google 专文介绍 Pixel 4 天文摄影模式的秘密</a></h3><p>每年 Google 都会通过博文分享他们在计算摄影上的最新成果及背后的实现方式，今年也不例外。作为 Pixel 4 的卖点之一，能够拍到银河、星空的「天体摄影」模式相比去年的夜视模式有什么不同，Google 相机团队在实现这个功能的过程中又克服了哪些困难？</p><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-滚动条的演进"><a href="#gt-滚动条的演进" class="headerlink" title="> 滚动条的演进"></a>&gt; <a href="https://scrollbars.matoseb.com/" target="_blank" rel="noopener">滚动条的演进</a></h3><p>这个网页展示自从有计算机以来，系统滚动条的样式变化。</p><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-48/eosc.jpg" class="full-image" alt="网页截图" title="《网页截图》" style="max-width: none; width: 20em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><h3 id="gt-gov-takedowns"><a href="#gt-gov-takedowns" class="headerlink" title="> gov-takedowns"></a>&gt; <a href="https://github.com/github/gov-takedowns" target="_blank" rel="noopener">gov-takedowns</a></h3><p>GitHub 有一个官方仓库，收录政府的来函，要求取缔某些内容。现在里面有三个国家的政府来函：中国、俄国和西班牙。所以，放在 GitHub 上的东西，可以合法地被政府拿掉。</p><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>所谓科学的论辩，从总体上来说则是没有多大效果的，更不用说论辩几乎总是各持己见的这个事实。<br>——弗洛伊德</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      每周见闻📅
+    
+    </summary>
+    
+      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>周刊（2019 第 47 周）</title>
+    <link href="https://ehusky.github.io/Weekly-2019-47/"/>
+    <id>https://ehusky.github.io/Weekly-2019-47/</id>
+    <published>2019-11-22T16:00:00.000Z</published>
+    <updated>2019-12-04T12:08:47.342Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-47/Weekly-2019-47.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="二十四节气之小雪"><a href="#二十四节气之小雪" class="headerlink" title="二十四节气之小雪"></a>二十四节气之小雪</h2><p>本周 2019 年 11 月22 日是小雪，是二十四节气中的第二十个节气。小雪节气由于天气寒冷，降水形式由雨改为雪，但此时由于「地寒未甚」，故雪量还不足，因此称做小雪。</p><p>物候：</p><ul><li>一候虹藏不见：由于不再有雨，彩虹便不会出现了。</li><li>二候天气升地气降：天空中的阳气上升、地中的阴气下降，导致天地不通、阴阳不交。</li><li>三候闭塞成冬：万物失去生机，天地闭塞而转入严寒的冬天。</li></ul><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>天地不仁，以万物为刍狗；圣人不仁，以百姓为刍狗。<br>–老子</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      每周见闻📅
+    
+    </summary>
+    
+      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>周刊（2019 第 46 周）</title>
+    <link href="https://ehusky.github.io/Weekly-2019-46/"/>
+    <id>https://ehusky.github.io/Weekly-2019-46/</id>
+    <published>2019-11-15T16:00:00.000Z</published>
+    <updated>2019-12-04T12:07:44.336Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-46/Weekly-2019-46.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><p>我是一个这样的人，每当遇到困难的时候，就会回忆起过去，反思自己之前做的对么？是哪里出了问题导致现在的情况？下周二硕士生中期答辩，因此我现在正在焦头烂额的准备报告和 PPT。半年后，也就是 2020 年的四月，学校会要求我们提交毕业论文。而作为参加毕业答辩的前提，硕士生必须在提交答辩申请之前发表一篇所在研究领域的学术论文。看着曾经一起上课、一起打球的同学都纷纷「上岸」并且有的都已经找到了工作，我不免悲从中来，觉得自己很失败。我做了两年的实验，失败了两年，我也不知道什么时候能够成功？什么时候能把所有的错误都试完？可是我现在又不能放弃。我甚至开始怀疑我还有没有勇气去读博士。所以，我的未来在哪里？</p><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>在认识一切事物之后，人才能认识自己，因为事物仅仅是人的界限。<br>——尼采</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      每周见闻📅
+    
+    </summary>
+    
+      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>周刊（2019 第 45 周）</title>
+    <link href="https://ehusky.github.io/Weekly-2019-45/"/>
+    <id>https://ehusky.github.io/Weekly-2019-45/</id>
+    <published>2019-11-08T16:00:00.000Z</published>
+    <updated>2019-12-03T02:08:17.664Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-45/Weekly-2019-45.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="二十四节气之立冬"><a href="#二十四节气之立冬" class="headerlink" title="二十四节气之立冬"></a>二十四节气之立冬</h2><p>本周 2019 年 11 月 08 日是立冬，农历二十四节气中的第十九个节气。立，建始也，表示冬季自此开始。冬是终了的意思，万物收藏也，意思是说秋季农作物全部收晒完毕，收藏入库，动物也已藏起来准备冬眠。</p><p>物候：</p><ul><li>一候水始冰：水面初疑，未至于坚也。</li><li>二候地始冻：土气凝寒，未至于坼。</li><li>三候雉入大水为蜃。</li></ul><h2 id="书籍"><a href="#书籍" class="headerlink" title="#书籍"></a>#书籍</h2><h3 id="gt-《薛兆丰经济学讲义》"><a href="#gt-《薛兆丰经济学讲义》" class="headerlink" title="> 《薛兆丰经济学讲义》"></a>&gt; 《薛兆丰经济学讲义》</h3><p>有人说他懂经济学，又有人说他不懂经济学。笔者近段时间阅读了他的这本书，正如其名，书的内容确实是以讲义的形式呈现。每一章都是一个大的类别，每一小节都是一个「知识点」。本书可以用来开阔视野，补充一点经济学的知识，读起来也不乏味。</p><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-45/XVE.png" class="full-image" alt="书籍封面" title="《薛兆丰经济学》" style="max-width: none; width: 11em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>拜水都江堰，问道青城山<br>– 余秋雨</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      每周见闻📅
+    
+    </summary>
+    
+      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>周刊（2019第44周）</title>
     <link href="https://ehusky.github.io/Weekly-2019-44/"/>
     <id>https://ehusky.github.io/Weekly-2019-44/</id>
     <published>2019-11-01T16:00:00.000Z</published>
-    <updated>2019-11-25T11:45:29.614Z</updated>
+    <updated>2019-12-04T12:02:35.543Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-44/Weekly-2019-44.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><p>近期博主忙毕业的事情忙的焦头烂额，因此没有太多的时间来获取新鲜的资讯，所以这周就给大家推荐两部好看的美剧吧～</p><h2 id="影视"><a href="#影视" class="headerlink" title="#影视"></a>#影视</h2><h3 id="gt-《看见-See》（2019）"><a href="#gt-《看见-See》（2019）" class="headerlink" title="> 《看见 See》（2019）"></a>&gt; <a href="https://www.imdb.com/title/tt7949218/" target="_blank" rel="noopener">《看见 See》（2019）</a></h3><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-44/see.jpg" class="full-image" alt="电影海报" title="《看见》" style="max-width: none; width: 11em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><h3 id="gt-《为全人类-For-All-Mankind》（2019）"><a href="#gt-《为全人类-For-All-Mankind》（2019）" class="headerlink" title="> 《为全人类 For All Mankind》（2019）"></a>&gt; <a href="https://www.imdb.com/title/tt7772588/" target="_blank" rel="noopener">《为全人类 For All Mankind》（2019）</a></h3><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-44/FAM.jpg" class="full-image" alt="电影海报" title="《为全人类》" style="max-width: none; width: 11em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><p>上面两部美剧都是 Apple TV+ 的作品。制作精良，故事情节引人入胜。</p><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>人之所以痛苦，在于追求错误的东西。<br>——路遥《平凡的世界》</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-44/Weekly-2019-44.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><p>近期笔者忙毕业的事情忙的焦头烂额，因此没有太多的时间来获取新鲜的资讯，所以这周就给大家推荐两部好看的美剧吧～</p><h2 id="影视"><a href="#影视" class="headerlink" title="#影视"></a>#影视</h2><h3 id="gt-《看见-See》（2019）"><a href="#gt-《看见-See》（2019）" class="headerlink" title="> 《看见 See》（2019）"></a>&gt; <a href="https://www.imdb.com/title/tt7949218/" target="_blank" rel="noopener">《看见 See》（2019）</a></h3><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-44/see.jpg" class="full-image" alt="电影海报" title="《看见》" style="max-width: none; width: 11em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><h3 id="gt-《为全人类-For-All-Mankind》（2019）"><a href="#gt-《为全人类-For-All-Mankind》（2019）" class="headerlink" title="> 《为全人类 For All Mankind》（2019）"></a>&gt; <a href="https://www.imdb.com/title/tt7772588/" target="_blank" rel="noopener">《为全人类 For All Mankind》（2019）</a></h3><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-44/FAM.jpg" class="full-image" alt="电影海报" title="《为全人类》" style="max-width: none; width: 11em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><p>上面两部美剧都是 Apple TV+ 的作品。制作精良，故事情节引人入胜。</p><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>人之所以痛苦，在于追求错误的东西。<br>——路遥《平凡的世界》</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -288,126 +408,6 @@
     <updated>2019-11-12T02:52:28.269Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-35/Weekly-2019-35.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="新闻"><a href="#新闻" class="headerlink" title="#新闻"></a>#新闻</h2><h3 id="gt-篮球世界杯开打"><a href="#gt-篮球世界杯开打" class="headerlink" title="> 篮球世界杯开打"></a>&gt; 篮球世界杯开打</h3><p>男篮世界杯的前身是世界男子篮球锦标赛，该项赛事是最为顶级的世界篮球赛事，从1950年至今已有近70年的历史。2012年国际篮联宣布男篮世锦赛正式更名为男篮世界杯，并于2014年进行更名后的首届赛事，首届篮球世界杯落户西班牙，而2019年的第二届篮球世界杯将在中国举办。无论是世锦赛的历史还是更名世界杯之后，中国都是第一次举办该赛事。</p><h3 id="gt-国际空间站的球形机器人回到地球了"><a href="#gt-国际空间站的球形机器人回到地球了" class="headerlink" title="> 国际空间站的球形机器人回到地球了"></a>&gt; <a href="https://cn.engadget.com/2019/09/02/cimon-robot-returns-to-earth/" target="_blank" rel="noopener">国际空间站的球形机器人回到地球了</a></h3><p>由 IBM 和空客合作打造的 CIMON 机器人，在 8 月 27 日就正式回到地球了。这个圆球形的机器搭载了 AI 和浮动功能，这一年以来，协助太空人进行实验和显示信息。</p><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-Microsoft-Azure-优惠活动"><a href="#gt-Microsoft-Azure-优惠活动" class="headerlink" title="> Microsoft Azure 优惠活动"></a>&gt; <a href="https://azure.microsoft.com/zh-cn/free/" target="_blank" rel="noopener">Microsoft Azure 优惠活动</a></h3><p>现在创建 Azure 免费帐户，即可享受免费一年的虚拟主机和前 30 天 200 美元体验金。</p><h3 id="gt-计算机之前的电子设备"><a href="#gt-计算机之前的电子设备" class="headerlink" title="> 计算机之前的电子设备"></a>&gt; <a href="http://ed-thelen.org/comp-hist/CBC.html" target="_blank" rel="noopener">计算机之前的电子设备</a></h3><p>这是一本免费电子书，介绍计算机出现之前的人类计算设备，从算盘、差分机、穿孔计算机，直到电子计算器。</p><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      每周见闻📅
-    
-    </summary>
-    
-      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>周刊（2019 第 34 周）</title>
-    <link href="https://ehusky.github.io/Weekly-2019-34/"/>
-    <id>https://ehusky.github.io/Weekly-2019-34/</id>
-    <published>2019-08-23T16:00:00.000Z</published>
-    <updated>2019-11-12T02:52:28.269Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-34/Weekly-2019-34.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="二十四节气之处暑"><a href="#二十四节气之处暑" class="headerlink" title="#二十四节气之处暑"></a>#二十四节气之处暑</h2><p>本周 08 月 23 日是处暑。《月令七十二候集解》说：「处，去也，暑气至此而止矣。」「处」是终止的意思，表示炎热即将过去，暑气将于这一天结束，中国大部分地区气温逐渐下降。</p><h2 id="新闻"><a href="#新闻" class="headerlink" title="#新闻"></a>#新闻</h2><h3 id="gt-苹果将于北京时间-2019-年-9-月-11-日凌晨-1-点举行产品发布会"><a href="#gt-苹果将于北京时间-2019-年-9-月-11-日凌晨-1-点举行产品发布会" class="headerlink" title="> 苹果将于北京时间 2019 年 9 月 11 日凌晨 1 点举行产品发布会"></a>&gt; <a href="https://www.apple.com/cn/apple-events/" target="_blank" rel="noopener">苹果将于北京时间 2019 年 9 月 11 日凌晨 1 点举行产品发布会</a></h3><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-34/Apple_SE.png" class="full-image" alt="网页截图" title="《Apple 特别活动》" style="max-width: none; width: 22em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-领导者的三种模式"><a href="#gt-领导者的三种模式" class="headerlink" title="> 领导者的三种模式"></a>&gt; <a href="https://www.neobub.com/maybe/post/modes_of_leadership" target="_blank" rel="noopener">领导者的三种模式</a></h3><p>模式一：「这就是我想要的，你按照我说的做。」<br>模式二：「这就是我想要的，你自己想如何去做。」<br>模式三：「让我们一起弄清楚我们能做些什么。」</p><h3 id="gt-戴维·霍夫曼的人生"><a href="#gt-戴维·霍夫曼的人生" class="headerlink" title="> 戴维·霍夫曼的人生"></a>&gt; <a href="https://www.huffmancoding.com/my-uncle/scientific-american" target="_blank" rel="noopener">戴维·霍夫曼的人生</a></h3><p>本文介绍著名的压缩算法霍夫曼编码的发明人戴维·霍夫曼的故事。</p><h3 id="gt-什么是区块链？"><a href="#gt-什么是区块链？" class="headerlink" title="> 什么是区块链？"></a>&gt; <a href="https://blockchainhandbook.io/" target="_blank" rel="noopener">什么是区块链？</a></h3><p>一篇针对普通读者的区块链入门介绍，写得比较好懂，还带有互动性的示例。</p><h2 id="书籍"><a href="#书籍" class="headerlink" title="#书籍"></a>#书籍</h2><h3 id="gt-《未来简史》"><a href="#gt-《未来简史》" class="headerlink" title="> 《未来简史》"></a>&gt; 《未来简史》</h3><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-34/HD.jpg" class="full-image" alt="书籍封面" title="《未来简史》" style="max-width: none; width: 13em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>作为一个决策者，你的职责不是做出很多决定，而是只需做出几个高质量的决定。</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      每周见闻📅
-    
-    </summary>
-    
-      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>周刊（2019 第 33 周）</title>
-    <link href="https://ehusky.github.io/Weekly-2019-33/"/>
-    <id>https://ehusky.github.io/Weekly-2019-33/</id>
-    <published>2019-08-16T16:00:00.000Z</published>
-    <updated>2019-11-12T02:52:28.269Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-33/Weekly-2019-33.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-如何防止切开的苹果「生锈」？"><a href="#gt-如何防止切开的苹果「生锈」？" class="headerlink" title="> 如何防止切开的苹果「生锈」？"></a>&gt; <a href="https://songshuhui.net/archives/106378" target="_blank" rel="noopener">如何防止切开的苹果「生锈」？</a></h3><p>切开的苹果只要放上一段时间，洁白的果肉颜色就会渐渐变深，看起来仿佛“生锈”了一样，让人没有胃口。怎样才能让切片苹果保持漂亮的浅色呢？</p><h3 id="gt-以小胜大，靠的是技术"><a href="#gt-以小胜大，靠的是技术" class="headerlink" title="> 以小胜大，靠的是技术"></a>&gt; <a href="https://songshuhui.net/archives/106310" target="_blank" rel="noopener">以小胜大，靠的是技术</a></h3><p>在身体的搏击上，大战胜小是常态。正因为此，一旦出现“以小胜大”的情景，人们总会分外地惊奇和感动。今天，我想和大家分享一些自然界里“以小胜大”的故事。</p><h2 id="漫话物理"><a href="#漫话物理" class="headerlink" title="#漫话物理"></a>#漫话物理</h2><h3 id="gt-用漫画解释粒子物理"><a href="#gt-用漫画解释粒子物理" class="headerlink" title="> 用漫画解释粒子物理"></a>&gt; <a href="https://songshuhui.net/archives/105646" target="_blank" rel="noopener">用漫画解释粒子物理</a></h3><h3 id="gt-用漫画解释引力波"><a href="#gt-用漫画解释引力波" class="headerlink" title="> 用漫画解释引力波"></a>&gt; <a href="https://songshuhui.net/archives/102245" target="_blank" rel="noopener">用漫画解释引力波</a></h3><h3 id="gt-用漫画解释量子通讯"><a href="#gt-用漫画解释量子通讯" class="headerlink" title="> 用漫画解释量子通讯"></a>&gt; <a href="https://songshuhui.net/archives/98952" target="_blank" rel="noopener">用漫画解释量子通讯</a></h3><h3 id="gt-用漫画解释低温超导"><a href="#gt-用漫画解释低温超导" class="headerlink" title="> 用漫画解释低温超导"></a>&gt; <a href="https://songshuhui.net/archives/99923" target="_blank" rel="noopener">用漫画解释低温超导</a></h3><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>当市场出现大的热潮时，最好的策略通常不是参与这个热潮，而是成为工具提供者。<br>– wolfejosh@twitter</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      每周见闻📅
-    
-    </summary>
-    
-      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>周刊（2019 第 32 周）</title>
-    <link href="https://ehusky.github.io/Weekly-2019-32/"/>
-    <id>https://ehusky.github.io/Weekly-2019-32/</id>
-    <published>2019-08-09T16:00:00.000Z</published>
-    <updated>2019-11-12T02:52:28.269Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-32/Weekly-2019-32.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="二十四节气之立秋"><a href="#二十四节气之立秋" class="headerlink" title="#二十四节气之立秋"></a>#二十四节气之立秋</h2><p>本周 08 月 08 日是立秋。立秋是二十四节气中的第十三个节气。据《月令七十二候集解》：「秋，揪也，物于此而揪敛也」。秋不仅预示着炎热的夏天即将过去，秋天即将来临。也表示草木开始结果孕子，收获季节到了。古代分立秋为三候：初侯凉风至；二侯白露降；三侯寒蝉鸣。</p><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-数字世界中的纸张-——-理解-PDF"><a href="#gt-数字世界中的纸张-——-理解-PDF" class="headerlink" title="> 数字世界中的纸张 —— 理解 PDF"></a>&gt; <a href="https://type.cyhsu.xyz/2018/09/understanding-pdf-the-digitalized-paper/" target="_blank" rel="noopener">数字世界中的纸张 —— 理解 PDF</a></h3><p>PDF 与其说是一种数字文档，不如说是实体文档在数字世界中的倒影。</p><h3 id="gt-维基百科的编辑"><a href="#gt-维基百科的编辑" class="headerlink" title="> 维基百科的编辑"></a>&gt; <a href="https://www.cbsnews.com/news/meet-the-man-behind-a-third-of-whats-on-wikipedia/" target="_blank" rel="noopener">维基百科的编辑</a></h3><p>Steven Pruitt 是维基百科最忙碌的编辑，他在 13 年的时候里面，一共完成了近 300 万次编辑，并撰写了 35,000 篇原创条目。维基百科英文版现在有570万条目，其中三分之一都被他编辑过。《时代》杂志将他评为互联网上最有影响力的 25 个人之一。他的维基用户名是 Ser Amantio Di Nicolao。</p><h3 id="gt-为什么电路板大多是绿色的？"><a href="#gt-为什么电路板大多是绿色的？" class="headerlink" title="> 为什么电路板大多是绿色的？"></a>&gt; <a href="https://www.ruanyifeng.com/blog/2019/02/weekly-issue-42.html" target="_blank" rel="noopener">为什么电路板大多是绿色的？</a></h3><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-32/ic.jpg" class="full-image" alt="电路板" title="《IC》" style="max-width: none; width: 20em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><h3 id="gt-Facebook-的专利"><a href="#gt-Facebook-的专利" class="headerlink" title="> Facebook 的专利"></a>&gt; <a href="https://gizmodo.com/facebook-knows-how-to-track-you-using-the-dust-on-your-1821030620" target="_blank" rel="noopener">Facebook 的专利</a></h3><p>新闻媒体发现，Facebook 为了找出人与人之间的关系，已经申请了一系列令人意想不到的专利。一个专利是，Facebook 如果检测到两部智能手机在同一个时间同一个地方出现，通过比较每部手机的加速度计和陀螺仪读数，可以确定两个人是面对面还是一起散步。这样的话，Facebook 可能就会推荐给你昨晚在酒吧与你交谈的朋友，而不是没有交谈过的人。</p><p>另一个专利是通过用户上传的照片元数据连接两个人。如果不同用户上传的图像，看起来像是同一系列的照片，比如文件名是IMG_4605739.jpg 和 IMG_4605742.jpg，或者如果在照片上的相同位置可以检测到镜头划痕或灰尘，那么可能会假设两个人彼此认识，因为他们使用了同一台相机拍照。</p><p>永远不要相信公司会「不作恶」</p><h3 id="gt-Seeing-Theory"><a href="#gt-Seeing-Theory" class="headerlink" title="> Seeing Theory"></a>&gt; <a href="https://seeing-theory.brown.edu/" target="_blank" rel="noopener">Seeing Theory</a></h3><p>概率和统计学入门教程，有网页图形版和免费的 PDF 电子书下载。</p><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-32/Seeing_Theory.png" class="full-image" alt="网页截图" title="《Seeing Theory》" style="max-width: none; width: 22em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>不要刻意去记住某件事，而要去寻找使其显而易见的解释。<br>– 理查德·费曼</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      每周见闻📅
-    
-    </summary>
-    
-      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>周刊（2019 第 31 周）</title>
-    <link href="https://ehusky.github.io/Weekly-2019-31/"/>
-    <id>https://ehusky.github.io/Weekly-2019-31/</id>
-    <published>2019-08-02T16:00:00.000Z</published>
-    <updated>2019-11-12T02:52:28.269Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-31/Weekly-2019-31.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><p>关于此博客，我陷入了一个困境：「周刊」这个栏目应该写什么内容和以什么频率更新。早些时候我规定自己每周必须更新一篇周刊，逐渐的我觉得我更新博客的动力在下降，总结下来有以下三点原因：并不是每周都会有事情值得去记录分享；通过观察已经更新的周刊可以看出，我只是在搬移信息，而并没有创造信息，这让我非常沮丧；本博客目前并没有观众，或者，确切的说，观众只有一个。但是如果我不规定自己在什么时候必须更新一篇博客，慢慢的我就会忘记还有博客要更新这件事。这让我想到之前看到过的一篇文章，讲述的内容是关于「一件事『做得好』比较好，还是『做得快』比较好？」。鱼和熊掌不能得兼，你怎么选择：做得好，付出的代价可能是耗时长、成本高；做得快，意味着完成度低、不是精品。作者给出了这样的观点：<strong>做得快不仅可以让你在单位时间内完成更多的工作，而且因为你工作得很快，所以你会觉得成本低，从而倾向于做更多</strong>。所以想到我不能坚持更新博客或许是因为我把它当作了负担，而又没有获得正面的激励，所以热情渐渐消失。想到这里我决定继续更新博客，周刊将会继续由「新闻」「资源」「影视」「书籍」等栏目组成，更新频率仍然为每周一更。</p><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      每周见闻📅
-    
-    </summary>
-    
-      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>周刊（2019 第 30 周）</title>
-    <link href="https://ehusky.github.io/Weekly-2019-30/"/>
-    <id>https://ehusky.github.io/Weekly-2019-30/</id>
-    <published>2019-07-27T16:00:00.000Z</published>
-    <updated>2019-11-12T02:52:28.269Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-30/Weekly-2019-30.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="二十四节气之大暑"><a href="#二十四节气之大暑" class="headerlink" title="#二十四节气之大暑"></a>#二十四节气之大暑</h2><p>本周 07 月 23 日是大暑。大暑在「三伏天」里的「中伏」前后，是二十四节气中的第十二个节气，往往也是一年中最热的时节。《月令七十二候集解》中说：「大暑，六月中。暑，热也，就热之中分为大小，月初为小，月中为大，今则热气犹大也。」其气候特征是：「斗指丙为大暑，斯时天气甚烈于小暑，故名曰大暑。」。大暑三侯：一侯腐草为萤；二候土润溽暑；三候大雨行时。</p><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-信用卡的历史起源"><a href="#gt-信用卡的历史起源" class="headerlink" title="> 信用卡的历史起源"></a>&gt; <a href="http://minesafetydisclosures.com/blog/2019/5/29/part-l-a-history-of-visa" target="_blank" rel="noopener">信用卡的历史起源</a></h3><p>介绍信用卡的来历，讲得非常清楚，既增长金融知识，又富有趣味。</p><h3 id="gt-Git-飞行规则"><a href="#gt-Git-飞行规则" class="headerlink" title="> Git 飞行规则"></a>&gt; <a href="https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md" target="_blank" rel="noopener">Git 飞行规则</a></h3><p>Git 该怎么使用？</p><h2 id="影视"><a href="#影视" class="headerlink" title="#影视"></a>#影视</h2><h3 id="gt-《黄石公园-Yellowstone》（2018-）"><a href="#gt-《黄石公园-Yellowstone》（2018-）" class="headerlink" title="> 《黄石公园 Yellowstone》（2018 - ）"></a>&gt; <a href="https://www.imdb.com/title/tt1415175/" target="_blank" rel="noopener">《黄石公园 Yellowstone》（2018 - ）</a></h3><span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-30/YS.jpg" class="full-image" alt="电影海报" title="《黄石》" style="max-width: none; width: 11em;"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><p>美国特产西部片，场景宏大。</p><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      每周见闻📅
-    
-    </summary>
-    
-      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>周刊（2019 第 29 周）</title>
-    <link href="https://ehusky.github.io/Weekly-2019-29/"/>
-    <id>https://ehusky.github.io/Weekly-2019-29/</id>
-    <published>2019-07-19T16:00:00.000Z</published>
-    <updated>2019-11-12T02:52:28.269Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-29/Weekly-2019-29.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="新闻"><a href="#新闻" class="headerlink" title="#新闻"></a>#新闻</h2><h3 id="gt-微软官方上线-Python-教程"><a href="#gt-微软官方上线-Python-教程" class="headerlink" title="> 微软官方上线 Python 教程"></a>&gt; <a href="https://docs.microsoft.com/zh-cn/windows/python/" target="_blank" rel="noopener">微软官方上线 Python 教程</a></h3><p>看来微软越来越开放了~</p><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-今日好奇：盐对鸭蛋做了什么，变出咸蛋黄这样香到流油的存在？"><a href="#gt-今日好奇：盐对鸭蛋做了什么，变出咸蛋黄这样香到流油的存在？" class="headerlink" title="> 今日好奇：盐对鸭蛋做了什么，变出咸蛋黄这样香到流油的存在？"></a>&gt; <a href="https://songshuhui.net/archives/106139" target="_blank" rel="noopener">今日好奇：盐对鸭蛋做了什么，变出咸蛋黄这样香到流油的存在？</a></h3><p>无论稀粥、米饭，还是月饼、粽子或者青团，各色餐点搭配上红亮流油的咸蛋黄总是不会出错。盐究竟对鸭蛋做了什么，变出了咸蛋黄这样香到流油的神仙存在？</p><h3 id="gt-Where-is-Sci-Hub"><a href="#gt-Where-is-Sci-Hub" class="headerlink" title="> Where is Sci-Hub"></a>&gt; <a href="https://whereisscihub.now.sh/" target="_blank" rel="noopener">Where is Sci-Hub</a></h3><p>Sci-Hub 提供免费的科学论文下载，由于版权问题，它必须经常更换域名。该网站告诉你，现在可以通过哪个域名访问到 Sci-Hub。</p><h3 id="gt-Math-in-Data-Science"><a href="#gt-Math-in-Data-Science" class="headerlink" title="> Math in Data Science"></a>&gt; <a href="https://www.dataquest.io/blog/math-in-data-science/" target="_blank" rel="noopener">Math in Data Science</a></h3><p>数据科学中对数学要求比较高。本文总结了需要掌握的最低限度的数学模型。</p><h3 id="gt-BBC-音效库"><a href="#gt-BBC-音效库" class="headerlink" title="> BBC 音效库"></a>&gt; <a href="http://bbcsfx.acropolis.org.uk/" target="_blank" rel="noopener">BBC 音效库</a></h3><p>英国广播公司 BBC 的音效库，包含16000多种可以下载的音效，比如停车的声音、机床的声音、鸟叫的声音等等。</p><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>自律的人才有自由可言</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
