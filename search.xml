@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[周刊（2019 第 51 周）]]></title>
+    <url>%2FWeekly-2019-51%2F</url>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 #资源&gt; 一个实用的 Excel 表格工具前几日有一个需求就是将 Excel 中的图另存为图片然后放进 LaTeX 里面。这时发现 Excel 似乎不提供此功能，然后找到了这个工具成功完成了操作。 &gt; All History以另一种形式展示历史。 #每周一句你是活了一万多天，还是仅仅生活了一天，却重复了一万多次？ —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[周刊（2019 第 50 周）]]></title>
     <url>%2FWeekly-2019-50%2F</url>
     <content type="text"><![CDATA[过去一周的见闻及思考。 #新闻&gt; 支付宝成立15周年 宣布正式开放首款在线知识管理工具「语雀」 12月8日消息，今天是支付宝成立15周年的日子，在这一天，支付宝内部孵化的一款文档与知识管理工具—语雀，宣布正式对外开放。 &gt; 微软将在明年 5 月 6 日关停 Wunderlist明年 5 月 6 日之后，Wunderlist 的 to-do 清单将无法再进行同步。在那之前微软会为用户提供有限的时间将相关数据转移至 To Do，而从今天开始 Wunderlist 也不会再接受新的注册了。 &gt; 为了分享对隐私保护的见解，苹果在 28 年后重回 CES自 1992 年的 Newton 发布以来，苹果的身影都没有正式在 CES 大会中出现过（在时间上 CES 和过去的 Macworld Expo 会比较重叠），但是这种情况在明年的活动中就将迎来改变。苹果的全球隐私资深总监 Jane Horvath 已经确定会参与一场 CES 2020 的圆桌会议，届时她将和同业一起探讨如何满足消费者对隐私保护的需求。 &gt; [2020 年铁路春运购票正式开启]12 月 12 日， 春运首日的火车票购票正式开启。从中国铁路官方微博公布的信息来看，今年春运将于 2020 年 1 月 10 日开始，2020 年 2 月 18 日结束，持续 40 天，期间全国铁路预计将发送旅客 4.4 亿人次。 #影视&gt; 《利刃出鞘 Knives Out》（2019） &gt; 《007：无暇赴死 No Time to Die》（2020）这是丹尼尔克雷格的最后一次主演 007，影片将在 2020 上映，目前放出了「预告片」 &gt; 《黑寡妇 Black Widow》（2020）黑寡妇终于迎来了自己的独立影片，影片将于 2020 年上映，目前漫威释放出了「预告片」 #每周一句实力意味着责任和危险。 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
