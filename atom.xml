@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ehusky.github.io/"/>
-  <updated>2019-12-23T12:35:36.926Z</updated>
+  <updated>2019-12-31T05:19:31.998Z</updated>
   <id>https://ehusky.github.io/</id>
   
   <author>
@@ -17,13 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>周刊（2019 第 52 周）</title>
+    <link href="https://ehusky.github.io/Weekly-2019-52/"/>
+    <id>https://ehusky.github.io/Weekly-2019-52/</id>
+    <published>2019-12-28T16:00:00.000Z</published>
+    <updated>2019-12-31T05:19:31.998Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-52/Weekly-2019-52.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-选数据线不只是「看形状」：一文看懂常见的-USB-和雷雳协议"><a href="#gt-选数据线不只是「看形状」：一文看懂常见的-USB-和雷雳协议" class="headerlink" title="> 选数据线不只是「看形状」：一文看懂常见的 USB 和雷雳协议"></a>&gt; <a href="https://sspai.com/post/57202" target="_blank" rel="noopener">选数据线不只是「看形状」：一文看懂常见的 USB 和雷雳协议</a></h3><p>USB-A、 USB-B、 USB-C、 USB 2.0、 USB 3.0、 USB 3.1 Gen1、 USB 3.1 Gen 2 ……。听到上述名词是不是有些迷糊，这些都是 USB 的标准。我们的生活中已经离不开 USB 接口了，可是你真的知道 USB 有哪些标准么？这篇文章就对 USB 做出了介绍，当然，它介绍的其实还不是很详细，只能算是一种科普。不过看看这篇文章应该没有错，至少你以后在看到 USB 接口时不会像以前一样无所谓了。</p><h3 id="gt-怎样的视频算得上「高清」？这-3-个「率」很重要"><a href="#gt-怎样的视频算得上「高清」？这-3-个「率」很重要" class="headerlink" title="> 怎样的视频算得上「高清」？这 3 个「率」很重要 "></a>&gt; <a href="https://sspai.com/post/58012" target="_blank" rel="noopener">怎样的视频算得上「高清」？这 3 个「率」很重要 </a></h3><p>视频对我们生活的改变已经很大了，同时各种各样的屏幕也充斥在我们的生活中。这篇文章给我们科普了常见的视频/屏幕规格以及一些参数。</p><h3 id="gt-色彩深度與色彩取樣"><a href="#gt-色彩深度與色彩取樣" class="headerlink" title="> 色彩深度與色彩取樣"></a>&gt; <a href="https://www.jacksonlin.net/20170116-%E8%89%B2%E5%BD%A9%E6%B7%B1%E5%BA%A6%E8%88%87%E8%89%B2%E5%BD%A9%E5%8F%96%E6%A8%A3/" target="_blank" rel="noopener">色彩深度與色彩取樣</a></h3><p>本周推荐的这三篇文章都有科普的性质，都和我们的电子生活密切相关。显示屏的参数上往往会标注「色深」，可是你知道这个「色深」是什么意思么？8 bit 和 10 bit 有多大的区别呢？他们都在什么场合下比较常见呢？看完这篇文章，希望你能对上述问题有所了解。</p><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>还有许多问题我愿意告诉你们，但是你们尚不能接受。</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      每周见闻📅
+    
+    </summary>
+    
+      <category term="周刊" scheme="https://ehusky.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>周刊（2019 第 51 周）</title>
     <link href="https://ehusky.github.io/Weekly-2019-51/"/>
     <id>https://ehusky.github.io/Weekly-2019-51/</id>
     <published>2019-12-21T16:00:00.000Z</published>
-    <updated>2019-12-23T12:35:36.926Z</updated>
+    <updated>2019-12-31T05:34:59.602Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-51/Weekly-2019-51.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-一个实用的-Excel-表格工具"><a href="#gt-一个实用的-Excel-表格工具" class="headerlink" title="> 一个实用的 Excel 表格工具"></a>&gt; <a href="https://www.xltoolbox.net/" target="_blank" rel="noopener">一个实用的 Excel 表格工具</a></h3><p>前几日有一个需求就是将 Excel 中的图另存为图片然后放进 LaTeX 里面。这时发现 Excel 似乎不提供此功能，然后找到了这个工具成功完成了操作。</p><h3 id="gt-All-History"><a href="#gt-All-History" class="headerlink" title="> All History"></a>&gt; <a href="https://www.allhistory.com/" target="_blank" rel="noopener">All History</a></h3><p>以另一种形式展示历史。</p><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>你是活了一万多天，还是仅仅生活了一天，却重复了一万多次？</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Weekly-2019-51/Weekly-2019-51.jpg" alt=" "></p><a id="more"></a><div class="note info">            <p>过去一周的见闻及思考。</p>          </div><h2 id="二十四节气之冬至"><a href="#二十四节气之冬至" class="headerlink" title="#二十四节气之冬至"></a>#二十四节气之冬至</h2><p>本周 2019-12-22 是冬至，二十四节气的第二十二个节气。冬至标示着北半球的太阳高度最小，白昼时间最短。冬至这天太阳直射地面的位置到达一年的最南端，太阳光几乎直射南回归线。冬至日是北半球各地白昼时间最短、黑夜最长的一天，并且越往北白昼越短；过了冬至以后，太阳直射点逐渐向北移动，北半球白昼开始逐渐变长。</p><p>冬至物候：</p><ul><li>蚯蚓结</li><li>麇角解</li><li>水泉动</li></ul><h2 id="资源"><a href="#资源" class="headerlink" title="#资源"></a>#资源</h2><h3 id="gt-一个实用的-Excel-表格工具"><a href="#gt-一个实用的-Excel-表格工具" class="headerlink" title="> 一个实用的 Excel 表格工具"></a>&gt; <a href="https://www.xltoolbox.net/" target="_blank" rel="noopener">一个实用的 Excel 表格工具</a></h3><p>前几日有一个需求就是将 Excel 中的图另存为图片然后放进 LaTeX 里面。这时发现 Excel 似乎不提供此功能，然后找到了这个工具成功完成了操作。</p><h3 id="gt-All-History"><a href="#gt-All-History" class="headerlink" title="> All History"></a>&gt; <a href="https://www.allhistory.com/" target="_blank" rel="noopener">All History</a></h3><p>以另一种形式展示历史。</p><h2 id="每周一句"><a href="#每周一句" class="headerlink" title="#每周一句"></a>#每周一句</h2><blockquote class="blockquote-center"><p>你是活了一万多天，还是仅仅生活了一天，却重复了一万多次？</p></blockquote><p>—<strong>全文完</strong>—</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -384,28 +404,6 @@
     <updated>2019-11-12T02:52:28.269Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Intro_Prop/Intro_Prop.png" alt=" "></p><a id="more"></a><div class="note info">            <p>本文给出了研究概率论的两个学派。</p>          </div><h1 id="概率论的两个学派：频率学派和贝叶斯学派"><a href="#概率论的两个学派：频率学派和贝叶斯学派" class="headerlink" title="概率论的两个学派：频率学派和贝叶斯学派"></a>概率论的两个学派：频率学派和贝叶斯学派</h1><h2 id="频率学派：通过观察数据来确定背后的概率分布。"><a href="#频率学派：通过观察数据来确定背后的概率分布。" class="headerlink" title="频率学派：通过观察数据来确定背后的概率分布。"></a>频率学派：通过观察数据来确定背后的概率分布。</h2><p>统计学中一个主要的问题是估计参数。我们用一个取值为样本的函数来估计我们感兴趣的参数，并称这个函数为估计量。这个估计量有良好的性质：无偏性和相合性。</p><h3 id="点估计"><a href="#点估计" class="headerlink" title="点估计"></a>点估计</h3><p>以一个估计圆周率 $\pi$ 的例子来说明。圆周率 $\pi$ 可以由圆与其外切正方形的面积比来表示：</p><blockquote><p>$$S_{circle}=\pi r^{2}$$<br>$$S_{square}4 r^{2}$$</p></blockquote><p>则有</p><blockquote><p>$$\pi = 4 \frac{S_{circle}}{S_{square}}$$</p></blockquote><p>先我们均匀地在正方形上随机生成 $n$ 个样本，用 $m$ 来表示落入这个正方形内切圆的样本个数。定义估计量 $\hat{\pi}$ 如下：</p><blockquote><p>$$\hat{\pi} = 4\frac{m}{n}$$</p></blockquote><p>点估计虽然给出了未知参数的估计值，但是未给出估计值的可靠程度，即估计值偏离未知参数真实值的程度。 </p><h3 id="区间估计"><a href="#区间估计" class="headerlink" title="区间估计"></a>区间估计</h3><p><em>以<a href="https://www.zhihu.com/question/26419030" target="_blank" rel="noopener">知乎</a>上的一个讲解 $95%$ 置信区间例子来讲解区间估计</em></p><p>一般我们用中括号 $[a,b]$ 表示样本估计总体平均值误差范围的区间。$a、b$ 的具体数值取决于你对于「该区间包含总体均值」这一结果的可信程度，因此 $[a,b]$ 被称为置信区间。 </p><p>现在我们要统计人类的平均身高，这个数据是真实存在的，只是我们不知道。在上帝视角下，假设人类的身高分布服从如下的正态分布</p><blockquote><p>$$X \sim N(\mu, \sigma ^2)$$</p></blockquote><p>作为愚蠢的人类，我们只能在人群中抽样统计。抽样的样本大小为 $n$，对应的样本值为 $x_{n}$，则样本均值为</p><blockquote><p>$$M=\frac{x_{1} + x_{2} + \dots + x_{n}}{n}$$</p></blockquote><p>通过不断的采样，根据中心极限定理和大数定理，样本的均值 $M$ 服从正态分布</p><blockquote><p>$$M \sim N(\mu, \frac{\sigma ^ {2}}{n})$$</p></blockquote><p>我们可以算出以 $\mu$ 为中心，面积为 $0.95$ 的区间，即</p><blockquote><p>$$P(\mu - 1.96 \frac{\sigma}{\sqrt{n}} \le M \le \mu + 1.96 \frac{\sigma}{\sqrt{n}}) = 0.95$$</p></blockquote><p>也就是， $M$ 有 $95%$ 的几率落入此区间</p><h3 id="自助法（Bootstrap）"><a href="#自助法（Bootstrap）" class="headerlink" title="自助法（Bootstrap）"></a>自助法（Bootstrap）</h3><p>在统计学中，自助法（Bootstrap Method，Bootstrapping，或自助抽樣法）是一种从给定训练集中有放回的均匀抽样，也就是说，每当选中一个样本，它等可能地被再次选中并被再次添加到训练集中。</p><h2 id="贝叶斯学派：用数据来更新特定假设的概率。"><a href="#贝叶斯学派：用数据来更新特定假设的概率。" class="headerlink" title="贝叶斯学派：用数据来更新特定假设的概率。"></a>贝叶斯学派：用数据来更新特定假设的概率。</h2><h3 id="贝叶斯公式"><a href="#贝叶斯公式" class="headerlink" title="贝叶斯公式"></a>贝叶斯公式</h3><blockquote><p>$$P(B|A) = \frac{P(A|B)P(B)}{P(A)}$$</p></blockquote><p>—<strong>全文完</strong>—</p><hr><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      再次认识概率论
-    
-    </summary>
-    
-      <category term="理论" scheme="https://ehusky.github.io/categories/%E7%90%86%E8%AE%BA/"/>
-    
-      <category term="概率论" scheme="https://ehusky.github.io/categories/%E7%90%86%E8%AE%BA/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>概率论里的名词解释</title>
-    <link href="https://ehusky.github.io/Introduce-Probability/"/>
-    <id>https://ehusky.github.io/Introduce-Probability/</id>
-    <published>2019-09-02T16:00:00.000Z</published>
-    <updated>2019-11-12T02:52:28.269Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ehusky/blog-imgs/master/Intro_Prop/Intro_Prop.png" alt=" "></p><a id="more"></a><div class="note info">            <p>本博客给出了概率论里一些名词的定义。</p>          </div><h1 id="名词解释"><a href="#名词解释" class="headerlink" title="名词解释"></a>名词解释</h1><h2 id="随机事件"><a href="#随机事件" class="headerlink" title="随机事件"></a>随机事件</h2><p>随机事件发生的概率在 $0$ 到 $1$ 之间。</p><h2 id="随机变量"><a href="#随机变量" class="headerlink" title="随机变量"></a>随机变量</h2><p>随机变量是一个函数（映射），其将一个实数与概率空间中的一个结果关联在一起。<del>随机变量不是随机变化的量。</del>常见的随机变量有两种类型：离散型随机变量和连续型随机变量。</p><ul><li>一个离散型随机变量可能的取值范围只有有限个或可列个值。</li></ul><blockquote><p>离散型随机变量值所代表的事件发生的概率是概率密度函数（Probability Density Function ）在该处的取值 $P(X=x) = f(x)$</p></blockquote><ul><li>连续型随机变量可能取值的范围是一个无限不可数集合（如全体实数)。连续型随机变量的定义是：设 $X$ 为随机变量，存在非负函数 $f(x)$ 使得：</li></ul><blockquote><p>$$P(a \le X \le b) = \int_{a}^{b}f(x)\mathrm{d}x$$</p></blockquote><h2 id="期望"><a href="#期望" class="headerlink" title="期望"></a>期望</h2><p>一个随机变量的期望刻画的是这个随机变量的概率分布的「中心」。</p><blockquote><p>$$\mathbb{E}[X] = \sum_{x \in \mathcal{X}} xP(x)$$</p></blockquote><h2 id="方差"><a href="#方差" class="headerlink" title="方差"></a>方差</h2><p>方差衡量一个随机变量的概率分布的分散程度</p><blockquote><p>$$\mathbb{Var}(X) = \mathbb{E}[(X-\mathbb{E}[X])^2]$$</p></blockquote><h2 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h2><p><a href="https://cs.brown.edu/courses/cs022/static/files/documents/sets.pdf" target="_blank" rel="noopener">这里</a>有一些常用的集合等式</p><h2 id="古典概率"><a href="#古典概率" class="headerlink" title="古典概率"></a>古典概率</h2><p>古典概率的本质就是数数，排列组合与古典概率论关系密切。</p><ul><li>排列问题是指从装有 $N$ 个不同物体的容器中取出 $M$ 个物体，并按照取出的顺序排序，求有多少种取出方式。</li></ul><blockquote><p>$$P^{M}_{N} = \frac{N!}{(N-M)!}$$</p></blockquote><ul><li>组合问题是指从装有 $N$ 个不同物体的容器中取出 $M$ 个物体，对取出的物体不排序，求有多少种取出方式。</li></ul><blockquote><p>$$C^{M}_{N} = \frac{N!}{M!(N-M)!}$$</p></blockquote><h2 id="条件概率"><a href="#条件概率" class="headerlink" title="条件概率"></a>条件概率</h2><p>指在事件 $A$ 发生的条件下事件 $B$ 发生的概率</p><blockquote><p>$$P(B|A) = \frac{P(AB)}{P(A)}$$</p></blockquote><h2 id="中心极限定理"><a href="#中心极限定理" class="headerlink" title="中心极限定理"></a>中心极限定理</h2><p>中心极限定理告诉我们，对于一个（性质比较好的）分布，如果我们有足够大的独立同分布的样本，其样本均值会（近似地）呈正态分布。样本数量越大，其分布与正态越接近。 </p><p>—<strong>全文完</strong>—</p><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><ol><li><a href="https://seeing-theory.brown.edu/cn.html" target="_blank" rel="noopener">看见统计</a></li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     

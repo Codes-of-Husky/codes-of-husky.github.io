@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[周刊（2019 第 52 周）]]></title>
+    <url>%2FWeekly-2019-52%2F</url>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 #资源&gt; 选数据线不只是「看形状」：一文看懂常见的 USB 和雷雳协议USB-A、 USB-B、 USB-C、 USB 2.0、 USB 3.0、 USB 3.1 Gen1、 USB 3.1 Gen 2 ……。听到上述名词是不是有些迷糊，这些都是 USB 的标准。我们的生活中已经离不开 USB 接口了，可是你真的知道 USB 有哪些标准么？这篇文章就对 USB 做出了介绍，当然，它介绍的其实还不是很详细，只能算是一种科普。不过看看这篇文章应该没有错，至少你以后在看到 USB 接口时不会像以前一样无所谓了。 &gt; 怎样的视频算得上「高清」？这 3 个「率」很重要 视频对我们生活的改变已经很大了，同时各种各样的屏幕也充斥在我们的生活中。这篇文章给我们科普了常见的视频/屏幕规格以及一些参数。 &gt; 色彩深度與色彩取樣本周推荐的这三篇文章都有科普的性质，都和我们的电子生活密切相关。显示屏的参数上往往会标注「色深」，可是你知道这个「色深」是什么意思么？8 bit 和 10 bit 有多大的区别呢？他们都在什么场合下比较常见呢？看完这篇文章，希望你能对上述问题有所了解。 #每周一句还有许多问题我愿意告诉你们，但是你们尚不能接受。 —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[周刊（2019 第 51 周）]]></title>
     <url>%2FWeekly-2019-51%2F</url>
-    <content type="text"><![CDATA[过去一周的见闻及思考。 #资源&gt; 一个实用的 Excel 表格工具前几日有一个需求就是将 Excel 中的图另存为图片然后放进 LaTeX 里面。这时发现 Excel 似乎不提供此功能，然后找到了这个工具成功完成了操作。 &gt; All History以另一种形式展示历史。 #每周一句你是活了一万多天，还是仅仅生活了一天，却重复了一万多次？ —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+    <content type="text"><![CDATA[过去一周的见闻及思考。 #二十四节气之冬至本周 2019-12-22 是冬至，二十四节气的第二十二个节气。冬至标示着北半球的太阳高度最小，白昼时间最短。冬至这天太阳直射地面的位置到达一年的最南端，太阳光几乎直射南回归线。冬至日是北半球各地白昼时间最短、黑夜最长的一天，并且越往北白昼越短；过了冬至以后，太阳直射点逐渐向北移动，北半球白昼开始逐渐变长。 冬至物候： 蚯蚓结 麇角解 水泉动 #资源&gt; 一个实用的 Excel 表格工具前几日有一个需求就是将 Excel 中的图另存为图片然后放进 LaTeX 里面。这时发现 Excel 似乎不提供此功能，然后找到了这个工具成功完成了操作。 &gt; All History以另一种形式展示历史。 #每周一句你是活了一万多天，还是仅仅生活了一天，却重复了一万多次？ —全文完— document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>周刊</category>
       </categories>
